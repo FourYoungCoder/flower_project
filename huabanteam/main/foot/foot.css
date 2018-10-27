@@ -1,0 +1,200 @@
+/*脚页的导航*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 14px;
+    color: #444;
+    width: 100%;
+    background: #fff;
+}
+input {
+    outline: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style: none;
+}
+.clear_fix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.row{
+    width: 1248px;
+    margin: 0 auto;
+}
+/*设置屏幕的最小宽度*/
+.page_min_width {
+    min-width: 1024px;
+}
+/*脚部中部*/
+#foot .middle {
+    width: 100%;
+    background: #333;
+}
+#foot .contain {
+    position: relative;
+}
+#foot .middle .cols {
+    width: 200px;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+#foot .middle .cols>a {
+    display: block;
+    padding-bottom: 15px;
+    color: #bbb;
+}
+#foot .middle .cols>a:hover{
+    color: #ededed;
+}
+#foot .middle .cols>a.title {
+    font-size: 16px;
+    color: #ddd;
+    padding-bottom: 20px;
+}
+#foot .middle .follow {
+    position: absolute;
+    right: 2px;
+    top: 0;
+    border: 1px solid #555;
+    border-bottom: none;
+    border-top: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    width: 248px;
+}
+.weixin_code {
+    position: absolute;
+    right: 30px;
+    top: 38px;
+    display: none;
+}
+/*最后一部分*/
+#foot .bottom {
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background-color: #000;
+    color: #999;
+    text-align: center;
+}
+#foot .bottom a {
+    color: #999;
+}
+#foot .bottom a:hover {
+    text-decoration: underline;
+}
+
+
+/* 尾部的工具栏*/
+.foot_fix {
+    position: fixed;
+    right: 8px;
+    bottom: 8px;
+}
+.tool_box a
+{
+    display: block;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 40px;
+    height: 36px;
+    font-size: 40px;
+    line-height: 28px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    background-color: rgba(0,0,0,.6);
+}
+.foot_fix .get_back {
+    width: 36px;
+    height: 40px;
+    font-size: 35px;
+    transform: rotate(90deg);
+    /*display: none;*/
+    /*opacity: 0;*/
+}
+.foot_fix a:hover {
+    background-color: rgba(0,0,0,.7);
+}
+.group_help ,.group_plus{
+    display: none;
+    background: #fff;
+    width: 140px;
+    border-radius: 2px;
+    box-shadow: 0 1px 8px rgba(0,0,0,.1);
+    position: absolute;
+    left: -152px;
+    bottom: 0;
+}
+/*工具天隐藏框的小三角*/
+.foot_fix .arr {
+    position: absolute;
+    right: -6px;
+    width: 6px;
+    height: 11px;
+    background: url("../images/code_arrow.png") 0 0 no-repeat;
+}
+.group_plus .arr {
+    bottom: 15px;
+}
+.group_help .arr {
+    bottom: 55px;
+}
+.group_help .cols,
+.group_plus .cols{
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.group_help .cols li,
+.group_plus .cols li
+{
+    position: relative;
+    height: 38px;
+    line-height: 38px;
+    text-indent: 3em;
+    cursor: pointer;
+    color: #222;
+    font-weight: 400;
+}
+.group_help .cols li:hover,
+.group_plus .cols li:hover
+{
+    color: #221919;
+    background-color: #F2F2F2;
+}
+
+/*小图标的处理*/
+.foot_fix i {
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 13px;
+    width: 12px;
+    height: 12px;
+    background: url("../images/icon_user_menu.png") 0 0 no-repeat;
+}
+.foot_fix .help_code {
+    background-position: 0 -640px;
+}
+
+.foot_fix .feed_back {
+    background-position: 0 -680px;
+}
+.foot_fix .add1 {
+    background-position: 0 -480px;
+}
+.foot_fix .add2 {
+    background-position: 0 -520px;
+}
+.foot_fix .add3 {
+    background-position: 0 -80px;
+}

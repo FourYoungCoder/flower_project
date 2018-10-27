@@ -1,0 +1,41 @@
+.h-row6 {
+    margin-bottom: 120px;
+}
+.h-row6-main {
+    background-color: #fff;
+    box-shadow: 0 3px 6px 2px #d5d9e2;
+    margin-top: 30px;
+    padding: 50px 70px;
+}
+.h-row6-r {
+    height: auto;
+    overflow: hidden;
+    clear: both;
+    display: table;
+    width: 100%;
+}
+.h-row6-item {
+    width: 20%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    height: 95px;
+    position: relative;
+}
+.h-row6-item:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border-right: 2px solid #f5f5f5;
+    content: "";
+}
+.h-row6-item img {
+    transition: all 0.3s;
+}
+.h-row6-r + .h-row6-r {
+    border-top: 2px solid #f5f5f5;
+}
+.h-row6-item:hover img {
+    transform: scale(1.1);
+}

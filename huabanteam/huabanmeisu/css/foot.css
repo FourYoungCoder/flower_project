@@ -1,0 +1,184 @@
+.h-foot {
+    background-color: #4b4a4a;
+    height: 130px;
+}
+.h-foot .txt {
+    width: auto;
+    float: left;
+    display: inline;
+    line-height: 130px;
+    font-size: 20px;
+    color: #787878;
+}
+.h-foot .form1 {
+    width: auto;
+    float: right;
+    display: inline;
+    height: 44px;
+    margin: 40px 35px 0 0;
+    background-color: #2a2a2a;
+    border-radius: 30px;
+    padding: 3px;
+}
+.h-foot .form1 .txt1 {
+    width: 353px;
+    height: 44px;
+    background: none;
+    outline: none;
+    padding-left: 15px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    float: left;
+    display: inline;
+}
+.h-foot .form1 .btn {
+    width: 70px;
+    height: 44px;
+    border: 0;
+    float: left;
+    display: inline;
+    background: url('../images/sou.png') no-repeat center #fc4349;
+    margin-left: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+}
+.h-foot .form1 .btn:hover {
+    background: url('../images/sou.png') no-repeat center #ed151c;
+}
+.footer {
+    background-color: #151515;
+    padding-top: 75px;
+    height: auto;
+    overflow: hidden;
+}
+.footer .logo1, .footer .nav, .footer .qrimg {
+    width: auto;
+    float: left;
+    display: inline;
+    color: #fff;
+}
+.footer .nav {
+    margin-left: 60px;
+    padding-top: 10px;
+}
+.footer .qrimg {
+    height: 123px;
+    margin: 15px 0 0 0;
+}
+.footer .link {
+
+    float: right;
+    display: inline;
+    padding-top: 20px;
+    width: 245px;
+    margin-right: 25px;
+}
+.footer .logo1 h4{
+    font-weight: normal;
+}
+.footer .logo1 h4 a {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 40px;
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+}
+.footer .logo1 h4 a:hover {
+    color: #fc4349;
+}
+.footer .nav dl {
+    width: auto;
+    float: left;
+    display: inline;
+    margin-right: 60px;
+}
+.footer .nav dl dd {
+    margin-bottom: 30px;
+}
+.footer .nav dl dd a {
+    font-size: 16px;
+    color: #fff;
+}
+.footer .nav dl dd a:hover {
+    color: #e05153;
+}
+.footer .qrimg .img1 {
+    width: 123px;
+    float: left;
+    display: inline;
+}
+.footer .qrimg .img1 img {
+    width: 123px;
+    height: 123px;
+    display: block;
+}
+.footer .qrimg .txt {
+    width: 234px;
+    float: left;
+    display: inline;
+    margin-left: 10px;
+}
+.footer .qrimg .txt .qq a {
+    border-bottom: 1px solid #fff;
+    line-height: 53px;
+    background: url('../images/qq.png') no-repeat left center;
+    font-size: 16px;
+    padding-left: 30px;
+    display: block;
+    color: #fff;
+}
+.footer .qrimg .txt .qq a:hover {
+    color: #fc4349;
+    background: url('../images/qq_1.png') no-repeat left center;
+}
+.footer .qrimg .txt h4 {
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+.footer .link h4 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 40px;
+    font-weight: normal;
+}
+.footer .link a {
+     width: 218px;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    margin-top: 10px;
+    background-color: #626262;
+}
+.footer .link a:hover {
+    border-color: #fc4349;
+    background: #fc4349;
+    color: #fff;
+}
+.copyright {
+    width: 100%;
+    text-align: center;
+    float: left;
+    display: inline;
+    line-height: 90px;
+    color: #fff;
+    margin-top: 60px;
+    font-size: 14px;
+}
+.copyright span {
+    width: 230px;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #000;
+    display: none;
+}

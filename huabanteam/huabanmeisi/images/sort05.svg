@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-home-id</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="newHome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Muse3.0-新首页" transform="translate(-390.000000, -1330.000000)" stroke-width="2">
+            <g id="Group-12">
+                <g id="item" transform="translate(0.000000, 1100.000000)">
+                    <g id="it" transform="translate(327.000000, 193.000000)">
+                        <g id="13-grocery-products" transform="translate(63.000000, 37.000000)">
+                            <g id="01-content-production" transform="translate(4.000000, 6.000000)">
+                                <g id="_x30_1_x5F_content_x5F_production">
+                                    <g id="Group">
+                                        <path d="M4,26 L4,32" id="Shape" stroke="#DDDDDD"></path>
+                                        <path d="M53,32 L53,26" id="Shape" stroke="#DDDDDD"></path>
+                                        <polyline id="Shape" stroke="#363F40" points="12 32 0 32 0 26 12 26"></polyline>
+                                        <g transform="translate(11.000000, 9.000000)" id="Shape" stroke="#363F40">
+                                            <path d="M39.755,17.025 C39.263,13.734 37.976,10.712 36.086,8.15 C35.545,8.675 34.812,9 34,9 C32.344,9 31,7.656 31,6 C31,5.188 31.325,4.455 31.85,3.914 C29.288,2.024 26.266,0.737 22.975,0.245 C22.849,1.785 21.572,3 20,3 C18.428,3 17.151,1.785 17.025,0.245 C13.734,0.737 10.712,2.024 8.15,3.914 C8.675,4.455 9,5.188 9,6 C9,7.656 7.656,9 6,9 C5.188,9 4.455,8.675 3.914,8.15 C2.024,10.712 0.737,13.734 0.245,17.025 C1.785,17.151 3,18.428 3,20 C3,21.572 1.785,22.849 0.245,22.975 C0.737,26.266 2.024,29.288 3.914,31.85 C4.455,31.325 5.188,31 6,31 C7.656,31 9,32.344 9,34 C9,34.812 8.675,35.545 8.15,36.086 C10.712,37.976 13.734,39.263 17.025,39.755 C17.151,38.215 18.428,37 20,37 C21.572,37 22.849,38.215 22.975,39.755 C26.266,39.263 29.288,37.976 31.85,36.086 C31.325,35.545 31,34.812 31,34 C31,32.344 32.344,31 34,31 C34.812,31 35.545,31.325 36.086,31.85 C37.976,29.288 39.263,26.266 39.755,22.975"></path>
+                                            <path d="M28.487,23.001 C27.253,26.496 23.919,29 20,29 C15.029,29 11,24.971 11,20 C11,15.029 15.029,11 20,11 C23.918,11 27.25,13.503 28.486,16.996"></path>
+                                        </g>
+                                        <polyline id="Shape" stroke="#363F40" points="23 26 58 26 62 29 58 32 23 32"></polyline>
+                                        <path d="M46,13 L48,13" id="Shape" stroke="#CCCCCC"></path>
+                                        <path d="M46,45 L48,45" id="Shape" stroke="#CCCCCC"></path>
+                                        <path d="M30,7 L32,7" id="Shape" stroke="#CCCCCC"></path>
+                                        <path d="M30,51 L32,51" id="Shape" stroke="#CCCCCC"></path>
+                                        <path d="M14,13 L16,13" id="Shape" stroke="#CCCCCC"></path>
+                                        <path d="M14,45 L16,45" id="Shape" stroke="#CCCCCC"></path>
+                                        <g id="Group-21" transform="translate(2.000000, 0.000000)" stroke="#CCCCCC">
+                                            <path d="M0.983851852,21.4814815 C4.2962963,9.10814815 15.5837407,0 29,0 C42.4162593,0 53.7037037,9.10814815 57.0161481,21.4814815" id="Shape"></path>
+                                            <path d="M57.0161481,36.5195926 C53.7037037,48.8918519 42.4151852,58 29,58 C15.5837407,58 4.2962963,48.8918519 0.983851852,36.5185185" id="Shape"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

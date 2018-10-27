@@ -1,0 +1,313 @@
+
+/*登录蒙版*/
+#mask{
+    width: 520px;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -155px 0 0 -260px;
+    text-align: center;
+    padding: 30px 0 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    border-radius: 4px;
+    z-index: 9999;
+    display: none;
+}
+/*蒙版周围阴影*/
+.mask_contain{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    display: none;
+}
+/*取消按钮盒子*/
+/*js点击事件!!!*/
+#mask .close{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+/*取消按钮图片*/
+#mask .close i{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -10px 0 0 -10px;
+    background: url('../images/msg_close.png') 0 0 no-repeat;
+}
+
+/*花瓣logo*/
+.hua{
+    background: url("../images/logo_2x.png") no-repeat;
+    width: 106px;
+    height: 36px;
+    margin: 0 auto;
+    background-size: 100%;
+}
+/*社交logo图盒子*/
+.holder{
+    width: 286px;
+    height: 302px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+}
+/*第一行文字*/
+.holder-text{
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+}
+/*第二行文字*/
+.holder-text1{
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*登录logo图盒子*/
+.social{
+    width: 286px;
+    height: 51px;
+    position: relative;
+    margin: 15px auto;
+
+}
+/*登录logo图*/
+.img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+}
+.weibo2{
+    background:url("../images/login_icons_tiny.svg") no-repeat;
+    left: 0;
+}
+.qzone2{
+    background:url("../images/login_icons_tiny.svg")  no-repeat -80px 0;
+    left: 60px;
+}
+.weixin1{
+    background:url("../images/login_icons_tiny.svg")  no-repeat -160px 0;
+    left: 120px;
+}
+.douban2{
+    background:url("../images/login_icons_tiny.svg") no-repeat -240px 0;
+    left: 180px;
+}
+.renren2{
+    background:url("../images/login_icons_tiny.svg") no-repeat -320px 0;
+    left: 240px;
+}
+/*logo移入移出*/
+.weibo2:hover{
+    background:url("../images/login_icons_tiny.svg") no-repeat 0 -80px;
+    left: 0;
+}
+.qzone2:hover{
+    background:url("../images/login_icons_tiny.svg")  no-repeat -80px -80px;
+    left: 60px;
+}
+.weixin1:hover{
+    background:url("../images/login_icons_tiny.svg")  no-repeat -160px -80px;
+    left: 120px;
+}
+.douban2:hover{
+    background:url("../images/login_icons_tiny.svg") no-repeat -240px -80px;
+    left: 180px;
+}
+.renren2:hover{
+    background:url("../images/login_icons_tiny.svg") no-repeat -320px -80px;
+    left: 240px;
+}
+
+
+/*文字前后横线*/
+.holder-text::before{
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    left:0;
+    top:10px;
+}
+.holder-text::after{
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    right:0;
+    top:10px;
+}
+.holder-text1::before{
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    left:0;
+    top:110px;
+}
+.holder-text1::after{
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    right:0;
+    top:110px;
+}
+
+
+/*账号密码输入框*/
+.text{
+    padding: 0 10px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 1;
+    color: #777;
+    background: #FCFCFC;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    width: 250px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+    margin-bottom: 10px;
+}
+/*登录按钮*/
+.open{
+    background-color: #EC414D;
+    width: 286px;
+    height: 38px;
+    border-radius: 3px;
+}
+/*登录*/
+.open-text{
+    color: #fff;
+    font-size: 18px;
+    line-height: 36px;
+}
+/*登录下面文字*/
+.bottom-text{
+    font-size: 14px;
+    margin-top: 10px;
+    color:#444;
+}
+.under{
+    color: #c90000;
+    font-size: 14px;
+    margin-right: 45px;
+}
+/*下划线*/
+.under:hover{
+    text-decoration:underline;
+}
+/*注册蒙版*/
+#registered{
+    width: 520px;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -155px 0 0 -260px;
+    text-align: center;
+    padding: 30px 0 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    border-radius: 4px;
+    z-index: 9999;
+    display: none;
+}
+.close1{
+    position: absolute;
+    margin: 5px;
+    top: 0;
+    right: 0;
+}
+#registered .close1 i{
+    width: 20px;
+    height: 20px;
+    background: url('../images/msg_close.png') 0 0 no-repeat;
+    display: block;
+    cursor: pointer;
+}
+.registered-box{
+    width: 286px;
+    height: 149px;
+    margin: 15px auto;
+    position: relative;
+    color: #999;
+}
+.imgs{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+}
+.zuo{
+    margin-left: 29px;
+}
+.low{
+    font-size: 16px;
+    color: #9E7E6B;
+}
+.lost{
+    margin-top: 70px;
+    display: block;
+}
+.low:hover{
+    color: #9A0000;
+    text-decoration: underline;
+}
+.registered-bottom{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 14px;
+    color: #444;
+}
+.registered-bottom .low{
+    font-size: 14px;
+}
+.holder-text3::before{
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    left:0;
+    top:12px;
+}
+.holder-text3::after{
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    right:0;
+    top:12px;
+}
+
+
+
+
+
+

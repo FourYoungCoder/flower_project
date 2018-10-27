@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-home-pt</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="newHome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Muse3.0-新首页" transform="translate(-187.000000, -1330.000000)">
+            <g id="Group-12">
+                <g id="item" transform="translate(0.000000, 1100.000000)">
+                    <g id="it" transform="translate(130.000000, 193.000000)">
+                        <g id="27-digital-art" transform="translate(57.000000, 37.000000)">
+                            <rect id="Rectangle-4" x="2" y="2" width="64" height="64"></rect>
+                            <g id="_x32_7_x5F_digital_x5F_art" transform="translate(6.000000, 3.000000)" stroke-width="2">
+                                <g id="Group">
+                                    <polyline id="Shape" stroke="#363F40" points="37 53 49 41 49 25"></polyline>
+                                    <polyline id="Shape" stroke="#363F40" points="9 25 9 41 21 53"></polyline>
+                                    <polyline id="Shape" stroke="#363F40" points="58 15 58 24 53 29"></polyline>
+                                    <polyline id="Shape" stroke="#363F40" points="37 38 40 35 40 8"></polyline>
+                                    <path d="M37,45 L44,38" id="Shape" stroke="#363F40"></path>
+                                    <polyline id="Shape" stroke="#363F40" points="0 8 0 24 5 29"></polyline>
+                                    <polyline id="Shape" stroke="#363F40" points="21 38 18 35 18 16"></polyline>
+                                    <path d="M21,45 L14,38" id="Shape" stroke="#363F40"></path>
+                                    <g transform="translate(25.000000, 1.000000)" id="Shape" stroke="#363F40">
+                                        <path d="M4,47 L4,54"></path>
+                                        <path d="M4,6 L4,33"></path>
+                                        <path d="M8,54 L8,2 C8,0.896 7.104,0 6,0 L2,0 C0.896,0 0,0.896 0,2 L0,54 L4,62 L8,54 L8,54 Z"></path>
+                                    </g>
+                                    <path d="M25,7 L33,7" id="Shape" stroke="#363F40"></path>
+                                    <path d="M40,6 L40,4" id="Shape" stroke="#DDDDDD"></path>
+                                    <path d="M40,2 L40,0" id="Shape" stroke="#DDDDDD"></path>
+                                    <path d="M18,14 L18,12" id="Shape" stroke="#DDDDDD"></path>
+                                    <path d="M18,10 L18,8" id="Shape" stroke="#DDDDDD"></path>
+                                    <path d="M9,23 L9,21" id="Shape" stroke="#DDDDDD"></path>
+                                    <path d="M9,19 L9,17" id="Shape" stroke="#DDDDDD"></path>
+                                    <path d="M9,15 L9,13" id="Shape" stroke="#DDDDDD"></path>
+                                    <path d="M49,23 L49,21" id="Shape" stroke="#DDDDDD"></path>
+                                    <path d="M49,19 L49,17" id="Shape" stroke="#DDDDDD"></path>
+                                    <path d="M49,15 L49,13" id="Shape" stroke="#DDDDDD"></path>
+                                    <path d="M58,13 L58,11" id="Shape" stroke="#DDDDDD"></path>
+                                    <path d="M58,9 L58,7" id="Shape" stroke="#DDDDDD"></path>
+                                    <path d="M0,6 L0,4" id="Shape" stroke="#DDDDDD"></path>
+                                    <path d="M0,2 L0,0" id="Shape" stroke="#DDDDDD"></path>
+                                    <path d="M25,55 L33,55" id="Shape" stroke="#394243"></path>
+                                    <path d="M29,44 L29,46" id="Shape" stroke="#DDDDDD"></path>
+                                    <path d="M29,40 L29,42" id="Shape" stroke="#DDDDDD"></path>
+                                    <path d="M29,36 L29,38" id="Shape" stroke="#DDDDDD"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

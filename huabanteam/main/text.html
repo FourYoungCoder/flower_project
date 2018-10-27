@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>text</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/ajax1.js"></script>
+</head>
+<body>
+
+<!--<div>2344</div>-->
+
+<button>click</button>
+<div class="type">0</div>
+<script>
+    $("button").click(function () {
+        //     ajax({
+        //         type:"post",
+        //         url:"http://127.0.0.1/main/php/add_load.php",
+        //         obj:{name:"张三", age:999},
+        //         successCallback: function (xhr){
+        //             $("p").text("post请求结果:"+ xhr.responseText);
+        //         },
+        //         failCallback:function (xhr) {
+        //             $("p").text("post请求结果:"+ xhr.statusText)
+        //         },
+        //         timeout:2000
+        //
+        // })});
+        console.log(this);
+    })
+
+</script>
+</body>
+</html>

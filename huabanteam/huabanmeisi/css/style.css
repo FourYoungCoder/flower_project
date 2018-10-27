@@ -1,0 +1,751 @@
+@charset "UTF-8";
+/*导航条左边*/
+#header{
+    height: 100%;
+}
+#header .app{
+    height: 4800px;
+}
+#header .app #nav{
+    width: 100%;
+    height: 78px;
+    z-index: 88;
+}
+.row{
+    width: 1180px;
+}
+nav{
+    line-height: 78px;
+    position: absolute;
+    left:50%;
+    margin-left: -590px;
+    z-index: 87;
+    height: 78px;
+}
+.menu a{
+    color:#fff;
+    font-size: 16px;
+    margin-right: 20px;
+}
+/*隐藏的垂直的菜单*/
+.menu .left .submenu .vertical_menu {
+    top: -4px;
+    left: -43px;
+    width: 360px;
+    box-shadow: 0 0  0 1px rgba(0,0,0,.03);
+    background-color: #fff;
+    position: relative;
+    padding: 10px 0 10px 0;
+    display: none;
+}
+.menu .left .submenu .vertical_menu img{
+    width: 14px;
+    position: absolute;
+    left: 122px;
+    top: -6px;
+    /*box-shadow: 0 0  0 1px rgba(0,0,0,.03);*/
+}
+
+.menu .left #cover{
+    position: absolute;
+    left: 300px;
+    top: 0;
+}
+.header .menu .left #cover:hover .vertical_menu{
+    display: block;
+}
+.menu .left .submenu .vertical_menu ul li{
+    width: 140px;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    margin-left: 20px;
+}
+.menu .left .submenu .vertical_menu .items{
+    color:#000;
+}
+.menu .left .submenu .vertical_menu .items:hover{
+    color:#f00;
+}
+.design{
+    margin-left: 30px;
+    position: absolute;
+    left: 400px;
+    top: 0;
+}
+.header .menu .left .icon{
+    border-top:8px solid transparent;
+    position: absolute;
+    left: 80px;
+    top:33px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.header .menu .left #icon{
+    border-right:8px solid #fff;
+}
+.header .menu .left #icon1{
+    border-right:8px solid #000;
+    opacity: 0;
+}
+.first-page{
+    margin-left: 20px;
+    padding-bottom: 25px;
+    border-bottom: 3px solid #C0A75E;
+}
+.menu #logo{
+    vertical-align: middle;
+}
+.menu #logo1{
+    position: absolute;
+    left:0;
+    top: 25px;
+    opacity: 0;
+}
+/*导航条右边*/
+.menu .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.menu .right a{
+    display: inline-block;
+    width: 75px;
+    height: 34px;
+    border: 1px solid #fff;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 3px;
+}
+.menu .right .first{
+    background-color: transparent;
+    margin-right: 5px;
+}
+.menu .right .last{
+    background-color: #C0A75E;
+    border: 1px solid transparent;
+}
+/*自动播放图片*/
+#header .app {
+    position: relative;
+    width: 100%;
+}
+#header .app .page{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.page .banner .slider img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 620px;
+    opacity: 0;
+}
+.container{
+    position: relative;
+    width: 1180px;
+    margin: 0 auto;
+}
+#header .banner .container {
+    height: 620px;
+}
+#header .banner .container .title img{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#header .banner .container .box{
+    position: absolute;
+    left: 0;
+    top: 56%;
+    width: 266px;
+    height: 40px;
+
+}
+.container .box .button{
+    display: inline-block;
+    width: 112px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    text-align: center;
+    color:#fff;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+.container .box .first{
+    background-color: #C0A75E;
+    border:none;
+}
+
+/*设计服务平台*/
+.page .design_set{
+    text-align: center;
+    background-color: #fff;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+.subtitle{
+    width: 512px;
+    height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 23px;
+    font-weight: 200;
+    margin-bottom: 30px;
+    color:#666;
+}
+.page .design_set .container .four_row{
+    width: 1200px;
+    height: 280px;
+}
+.page .design_set .container .four_row .common{
+    float: left;
+    width: 300px;
+}
+.design_set .container .four_row .common .little_img img{
+    margin-bottom: 20px;
+
+}
+.four_row .common .little_img .description{
+    font-size: 14px;
+    color:#999;
+    width: 280px;
+}
+
+/*需要的设计师*/
+.page .category{
+    text-align: center;
+}
+.page .category .liner{
+    width: 100px;
+    height: 2px;
+    background-color: #C0A75E;
+    margin: 20px auto;
+}
+.page .category .showcase{
+    margin: 0 auto;
+    width: 1180px;
+    text-align: center;
+}
+.page .category .showcase .type{
+    flex-grow: 1;
+    float: left;
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 2px;
+}
+.page .category .subtitle{
+    padding:30px 0 20px 0 ;
+    height: 30px;
+}
+.page .category .showcase .type .name{
+    width: 154px;
+    height: 19px;
+    color:#555;
+    margin-top: 10px;
+}
+.page .category .showcase .type:hover{
+    box-shadow: 0 0 0 2px #FFF, 0 2px 20px 2px rgba(0,0,0,.03), 0 24px 30px 2px rgba(0,0,0,.04);
+    transition: .3s;
+    transform: translateY(-2px);
+}
+
+.page .category .text1{
+    margin-top: 40px;
+    color:#999;
+    font-size: 16px;
+}
+.page .category .button{
+    margin-top: 20px;
+    display: inline-block;
+    width: 144px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #000;
+    margin-right: 20px;
+}
+.page .category .button:hover{
+    background-color: #000;
+    color:#fff;
+}
+#submit{
+    cursor: pointer;
+}
+/*联合设计中心*/
+.page .stage{
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.page .stage .unites{
+    margin-top: 80px;
+    width: 1180px;
+}
+.page .stage .unites .center{
+    float:left;
+    background-color: #fff;
+    width:31.5%;
+    margin-right: 20px;
+    padding: 20px 0 40px 0;
+}
+.page .stage .unites .center .name{
+    color:#C0A75E;
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+.page .stage .unites .center .extra{
+    color:#999;
+    font-size: 14px;
+}
+.page .stage .unites .center .divider{
+    width: 40px;
+    height: 2px;
+    margin: 15px auto;
+    background-color: #C0A75E;
+}
+.page .stage .unites .center .cate{
+    color:#999;
+}
+.page .stage .unites .center:hover{
+    box-shadow:  0 0 0 2px #FFF, 0 2px 20px 2px rgba(0,0,0,.03), 0 24px 30px 2px rgba(0,0,0,.04);
+    transform: translateY(-2px);
+    transition: .3s;
+}
+.page .stage #text{
+    margin-top: 40px;
+    color:#999;
+}
+.page .stage #text .button{
+    color:#000;
+    cursor: pointer;
+}
+/*有品质的设计,来自专业的设计师*/
+.page .designer{
+    background-color: #fff;
+    margin-top: 30px;
+    height: 1016px;
+}
+.page .designer .container{
+    text-align: center;
+}
+.page .designer .container .subtitle{
+    padding-top: 60px;
+}
+.page .designer .container .liner{
+    width: 100px;
+    height: 2px;
+    background-color: #C0A75E;
+    margin: 0 auto;
+}
+.page .designer .photos{
+    width: 1180px;
+    margin-top: 60px;
+}
+.page .designer .photos .user{
+    width: 50%;
+    text-align: left;
+    z-index: 55;
+    position: relative;
+}
+.page .designer .photos img{
+    width: 280px;
+    min-width: 280px;
+    height: 320px;
+}
+.page .designer .photos .detail{
+    height: 320px;
+    width: 290px;
+    float: right;
+}
+.page .designer .photos .detail .header{
+    text-align: right;
+}
+.page .designer .photos .detail .header .bg{
+    font-size: 60px;
+    color:#ddd;
+    font-weight: 600;
+    position: relative;
+    left: -6px;
+    top: -18px;
+    opacity: .5;
+    z-index: 1;
+}
+.designer .photos .detail .header .profession{
+    color:#C0A75E;
+    font-size: 14px;
+    margin-top: -60px;
+    position: relative;
+    z-index: 10;
+}
+.designer .photos .detail .header .name{
+    display: inline-block;
+    font-size: 28px;
+    margin: 10px 0 20px 0;
+    width: 112px;
+    height: 40px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+.designer .photos .detail .header .name:hover{
+    color:#C0A75E;
+}
+.designer .photos .detail .describe{
+    margin-top: 50px;
+    font-size: 14px;
+    color:#999;
+    line-height: 25px;
+    padding-left: 20px;
+    height: 198px;
+}
+.designer .photos .left .detail .describe{
+    text-align: right;
+}
+.designer .photos .right{
+    float: right;
+    margin-top: -120px;
+}
+.designer .photos .right .header{
+    width: 290px;
+    position: absolute;
+    left:-260px;
+    top: 0;
+}
+.designer .photos .right .header .bg{
+    width: 270px;
+}
+.designer .photos .right .header .name{
+    text-align: left;
+}
+.designer .photos .right .header .bg{
+    position: relative;
+    left: 100px;
+    top: 0;
+}
+.designer .photos .right .header .profession{
+    position: relative;
+    left: -24px;
+}
+.designer .photos .right .describe{
+    position: relative;
+    top: 75px;
+    left: -112px;
+
+}
+.designer .photos .right img{
+    float: right;
+}
+.designer .photos .last{
+    margin-top: 150px;
+}
+.designer .photos .detail{
+    position: relative;
+    left: -20px;
+    height: 320px;
+    background: linear-gradient(to right,#f3f3f3,#f3f3f3 200px,transparent 200px,transparent);
+}
+.designer .photos .right .detail{
+    position: relative;
+    left:90px;
+}
+
+/*成功项目实例*/
+/* 轮播图*/
+.page .case{
+    width: 100%;
+    margin-bottom: 0;
+    height: 789px;
+}
+.page .case .subtitle{
+    text-align: center;
+    padding-top: 60px ;
+}
+.page .case .liner{
+    width: 100px;
+    height: 1px;
+    background-color: #C0A75E;
+    margin: 30px auto;
+ }
+.page .case .map{
+    width: 1180px;
+    margin: 0 auto;
+}
+.page .case .box{
+    width: 100%;
+}
+.page .case .product{
+    position: relative;
+}
+.page .case .product .cover{
+    padding-bottom: 30px;
+    background-color: #fff;
+}
+.page .case .product .cover img{
+    width: 380px;
+}
+.page .case .product #list{
+    width: 1180px;
+    height: 540px;
+    overflow: hidden;
+    position: relative;
+}
+.page .case .product .photo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1180px;
+}
+.page .case .product .photo li{
+    display: inline-block;
+    width:380px;
+    margin-left: 10px;
+
+}
+.page .case .product #list li:hover{
+    box-shadow:  0 0 0 2px #fff, 0 2px 20px 2px rgba(0,0,0,.03), 0 24px 30px 2px rgba(0,0,0,.04);
+    transform: translateY(-2px);
+    transition: .3s;
+}
+.page .case .product #list .content{
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: #fff;
+    position: relative;
+    top: -15px;
+}
+.page .case .product #list .content .title{
+    font-weight: 700;
+    margin: 10px 0 10px 0;
+}
+.page .case .product #list .content .liner{
+    width: 50px;
+    height: 2px;
+    background-color: #C0A75E;
+    margin: 10px auto;
+}
+.page .case .product #list .content .extra{
+    color:#999;
+    margin-bottom: 15px;
+}
+.page .case .product #list .content .user{
+    color:#C0A75E;
+}
+/*左右按钮*/
+.page .box .product .btn .pre,
+.page .box .product .btn .next{
+    background: url("../images/icon0.png") no-repeat;
+    width: 35px;
+    height: 62px;
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.page .box .product .btn .pre{
+    background-position: 0 0;
+    left:-50px;
+}
+.page .box .product .btn .pre:hover{
+    background: url("../images/icon0.png") no-repeat 0 -81px;
+
+}
+.page .box .product .btn .next{
+    background-position: -53px 0;
+    right:-50px;
+}
+.page .box .product .btn .next:hover{
+    background: url("../images/icon0.png") no-repeat -53px -81px;
+}
+/*下面小图标*/
+.page .box .product .control{
+    width: 1180px;
+    text-align: center;
+    margin-top: 50px;
+}
+.page .box .product .control .empty{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.current{
+    background-color: #fff;
+}
+/*小板块*/
+.page .seek{
+    margin-top: 0;
+    background-color: #fff;
+    text-align: center;
+    height: 350px;
+}
+.page .seek .subtitle{
+    padding-top: 60px ;
+}
+.page .seek .liner{
+    width: 100px;
+    height: 2px;
+    background-color: #C0A75E;
+    text-align: center;
+    margin: 0  auto;
+}
+.page .seek .block{
+    width: 100%;
+    margin-top: 30px;
+}
+.page .seek .block .sort{
+    display: inline-block;
+    width: 190px;
+    height: 67px;
+    line-height: 67px;
+    text-align: center;
+    background-color: #F7F7F7;
+    margin-bottom: 3px;
+    color:#555;
+    font-size: 14px;
+}
+.page .seek .block .sort:hover{
+    box-shadow:  0 0 0 2px #FFF, 0 2px 20px 2px rgba(0,0,0,.03), 0 24px 30px 2px rgba(0,0,0,.04);
+    transform: translateY(-2px);
+    transition: .3s;
+}
+
+/* 他们选择了美思*/
+.page .kind{
+    text-align: center;
+}
+.page .kind .subtitle{
+  padding-top: 50px;
+}
+.page .kind .liner{
+    width: 100px;
+    height: 2px;
+    background-color: #C0A75E;
+    text-align: center;
+    margin: 0  auto;
+
+}
+.page .kind .brands{
+    width: 1180px;
+    margin: 30px auto;
+
+}
+.page .kind .brands a{
+    display: inline-block;
+    height: 36px;
+    margin: 0 35px 40px;
+}
+.page .kind .brands img{
+    height: 36px;
+}
+/*尾部*/
+#footer{
+    background-color: #333;
+    position: relative;
+    /*top:4900px;*/
+    padding-bottom: 26px;
+    height: 300px;
+}
+#footer .links{
+    width: 1180px;
+    margin: 0 auto;
+}
+#footer .links .title{
+    color:#999;
+    padding-top: 30px;
+}
+
+#footer .links .column{
+    width: 1200px;
+    margin-top: 20px;
+}
+#footer .links .regards .caption{
+    margin-bottom: 20px;
+    color:#999;
+}
+#footer .links .column .regards{
+    width: 300px;
+    height: 198px;
+    float: left;
+}
+#footer .column .regards .list li a{
+    display: inline-block;
+    color:#ddd;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+#footer .column .regards .list li a:hover{
+    color:#000;
+}
+/*二维码图标*/
+#footer .column .regards .download{
+    position: relative;
+    right:-60px;
+    top:-95px;
+    display: none;
+    cursor: pointer;
+}
+#footer .column .regards #app{
+    position: relative;
+    left: 0;
+}
+#footer .column .regards #app .app{
+    color:#fff;
+    font-size: 14px;
+}
+#footer .column .regards #app .app:hover{
+    color:#000;
+}
+#footer .column .regards #app:hover .download{
+    display: block;
+}
+/*网址*/
+#footer .remark{
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #222;
+}
+#footer .remark .website{
+    width: 1180px;
+    color:#999;
+    margin: 0 auto;
+}
+
+/* 联系客服小图标*/
+.customer-Service{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #3C90DC;
+    position: fixed;
+    right: 50px;
+    bottom: 0;
+    color:#fff;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>花瓣美思 - 高质量、高效率、无风险的设计服务</title>
+    <link rel="icon" href="images/touch-icon-iphone.png">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/jquery.datetimepicker.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/jquery.datetimepicker.full.js"></script>
+    <script src="js/index1.js"></script>
+</head>
+<body>
+<div id="header">
+    <div class="app clear-fixed">
+        <div class="header" id="nav">
+            <nav class="menu row change">
+                <div class="left">
+                    <a href="#">
+                        <img id="logo1" src="images/logo.svg" alt="1">
+                    </a>
+                    <a id="name" href="../main/index.html" class="first-page">首页</a>
+                    <div id="cover">
+                        <a id="name1" href="#">设计服务</a>
+                        <i id="icon" class="icon"></i>
+                        <div class="submenu">
+                            <div class="vertical_menu">
+                                <img src="images/menu_arrow.png" alt="">
+                                <ul class="clear-fixed">
+                                    <li><a class="items" href="#">LOGO/品牌</a></li>
+                                    <li><a class="items" href="#">平面设计</a></li>
+                                    <li> <a class="items" href="#">UI 设计</a></li>
+                                    <li> <a class="items" href="#">绘画/插画</a></li>
+                                    <li> <a class="items" href="#">工业/产品设计</a></li>
+                                    <li><a class="items" href="#">影视/动画</a></li>
+                                    <li><a class="items" href="#">摄影</a></li>
+                                    <li><a class="items" href="#">服装设计</a></li>
+                                    <li><a class="items" href="#">室内设计</a></li>
+                                    <li><a class="items" href="#">造型设计</a></li>
+                                    <li> <a class="items" href="#">私家定制</a></li>
+                                    <li><a class="items" href="#">其它</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a id="name2" href="#" class="design">设计师</a>
+                </div>
+                <div class="right">
+                    <div class="item">
+                        <a id="name3" href="#" class="first">登录</a>
+                        <a href="#" class="last">注册</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<div id="main">
+    <div class="content">
+        <div class="service">
+            <div class="need">提交需求</div>
+            <div class="header-progress">
+                <ol class="progress-list">
+                    <li class="item first">填写需求</li>
+                    <li class="item second" >确认信息</li>
+                    <li class="item last">完成</li>
+                </ol>
+                <div class="liner"></div>
+            </div>
+        </div>
+        <div class="service-form">
+            <div class="field">
+                <div class="required"><span class="title">*</span> 需求类别 </div>
+                <div class="controls">
+                    <div class="two-field">
+                        <div class="left">
+                            <div class="selection">
+                                <input  id="oInput" class="search common" type="text" placeholder="选择分类">
+                                <i id="litter"></i>
+                                <div class="menu" id="menu">
+                                    <ul class="menu-list">
+                                        <li>LOGO/品牌</li>
+                                        <li>平面设计</li>
+                                        <li>UI 设计</li>
+                                        <li>绘画/插画</li>
+                                        <li>工业/产品设计</li>
+                                        <li>摄影</li>
+                                        <li>服装设计</li>
+                                        <li>室内设计</li>
+                                        <li>造型设计</li>
+                                        <li>其它</li>
+                                    </ul>
+                                </div>
+                                <input id="child_page" class="search1 common" type="text" placeholder="选择子分类">
+                                <i id="child"></i>
+                                <div id="menu_page">
+                                    <ul>
+                                        <li>No results found.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <div class="required  second"><span class="title">* </span>项目预算(元)</div>
+                <div class="controls">
+                    <div class="two-field">
+                        <div class="left">
+                            <div class="selection">
+                                <span id="money">￥</span>
+                                <input class="budget" type="text" value="" placeholder="为这个项目您准备了多少金额的预算？">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <div class="required third"><span class="title">* </span>项目截止时间</div>
+                <div class="controls">
+                    <div class="two-field">
+                        <div class="left">
+                            <div class="rdt">
+                                <input id="time" class="form-control"  type="text" placeholder="您希望设计师什么时候完成项目?">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <div class="required"><span class="title">*</span>需求描述</div>
+                <div class="controls">
+                    <textarea type="text" placeholder="具体介绍您的需求"></textarea>
+                    <div class="two-field">
+                        <div class="left">
+                            <div class="selection">
+                                <div class="text-content">详细的描述有利于经纪人快速了解您的需求方向。您可以详细表述您的需求，如企业背景、需求背景、相关链接等。</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <div class="required call">称呼(非必选)</div>
+                <div class="controls">
+                    <input class="name" type="text" >
+                </div>
+            </div>
+            <div class="field">
+                <div class="liner"></div>
+                <div class="controls">
+                    <div class="divider"></div>
+                    <div class="compact">
+                        <div class="column">
+                            <a href="#" class="cancel">取消</a>
+                            <button class="next">下一步
+                                <span> >> </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="footer clear-fixed">
+        <div class="links">
+            <h3 class="title">花瓣美思，花瓣网旗下网站</h3>
+            <div class="grid">
+                <div class="column clear-fixed">
+                    <div class="regards">
+                        <div class="caption">花瓣美思</div>
+                        <ul class="list">
+                            <li><a href="#">关于美思</a></li>
+                            <li><a href="#">雇主问题</a></li>
+                            <li><a href="#">设计师问题</a></li>
+                            <li><a href="#">使用帮助</a></li>
+                        </ul>
+                    </div>
+                    <div class="regards">
+                        <div class="caption">平台战略合作伙伴</div>
+                        <ul class="list">
+                            <li><a href="#">中华世纪坛创意新媒体联盟</a></li>
+                            <li><a href="#">视觉中国</a></li>
+                            <li><a href="#">腾讯风铃</a></li>
+                            <li><a href="#">ixdc</a></li>
+                            <li><a href="#">红星奖</a></li>
+                        </ul>
+                    </div>
+                    <div class="regards">
+                        <div class="caption">联系与合作</div>
+                        <ul class="list">
+                            <li><a href="#">联系我们</a></li>
+                            <li><a href="#">联系客服</a></li>
+                            <li><a href="#">微博 @花瓣网</a></li>
+                        </ul>
+                        <div id="app">
+                            <a class="app" href="#">微信</a>
+                            <img class="download" src="images/app.png" alt="">
+                        </div>
+                    </div>
+                    <div class="regards">
+                        <div class="caption">移动客户端</div>
+                        <ul class="list">
+                            <li><a href="#">iOS</a></li>
+                            <li><a href="#">Android</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="remark">
+       <p class="website"> Copyright© Huaban.com 2016 | 浙B2-20110282 浙ICP备05049240</p>
+    </div>
+</div>
+<div class="customer-Service">
+    联系客服
+</div>
+
+</body>
+</html>

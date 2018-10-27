@@ -1,0 +1,288 @@
+.h-slider{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 615px;
+    background-color: #000;
+    width: 100%;
+}
+.h-slider .glider{
+    height:615px;
+    position: relative;
+    overflow: hidden;
+
+    width: 100%;
+}
+.h-slider .glider .slides{
+    width: 600%;
+    height: 615px;
+    position: absolute;
+}
+.h-slider .glider .slides .banner{
+    width: 16.6666667%;
+
+    height: 615px;
+    text-align: center;
+    float: left;
+    clear: none;
+}
+.h-slider .glider .slides .banner img{
+    width: 100%;
+    height: 615px;
+}
+.h-slider  .slider-nav{
+    position: absolute;
+    width: 1100px;
+    text-align: center;
+    left: 50%;
+    margin-left: -550px !important;
+    bottom: 45px;
+    z-index: 1;
+}
+.h-slider  .slider-nav .slider-nav_item{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000;
+    cursor: pointer;
+}
+.slider-nav_bg{
+    background: #ccc !important;
+}
+.wrap {
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+    color: #fff;
+}
+.form {
+    height: 66px;
+    /* width: 864px; */
+    width: 760px;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    margin-left: -380px;
+    z-index: 1;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+ .form .txt, .form .type, .form .btn {
+    display: inline;
+    float: left;
+}
+.form .txt {
+    width: 520px;
+    height: 66px;
+    border: 0;
+    background: none;
+    font-size: 15px;
+    color: #fff;
+    padding-left: 25px;
+    outline: none;
+}
+.form .type {
+    width: 132px;
+    border: none;
+    height: 66px;
+    position: relative;
+    border-left: none;
+    border-right: 0;
+}
+ .form .type i {
+    position: absolute;
+    width: 8px;
+    height: 5px;
+    left: 100px;
+}
+.form .type i.n1 {
+    top: 50%;
+    margin-top: -18px;
+}
+.form .type i.n2 {
+    top: 50%;
+    margin-top: -8px;
+}
+.form .type .dropdown {
+    top: 0;
+    left: 0;
+    width: 132px;
+    padding: 0;
+    border: 0;
+    height: 66px;
+    background: none;
+    position: relative;
+}
+.dropdown .old {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 0;
+    /*overflow: hidden;*/
+}
+.old select {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+ .form .type .dropdown .selected {
+    padding: 0 0 0 20px;
+    line-height: 66px;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    position: relative;
+     cursor: pointer;
+}
+.dropdown .selected, .dropdown li {
+    display: block;
+    font-size: 14px;
+    line-height: 1;
+    color: #9fa0a0;
+    padding: 13px 0;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+.focus {
+    background-color: rgba(252,67,73,0.7)
+}
+.dropdown .selected::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 60px;
+    border-radius: 0 2px 2px 0;
+}
+ .form .type .dropdown .carat {
+    display: none;
+}
+.dropdown .selected {
+    margin: 0;
+}
+.dropdown .carat {
+    position: absolute;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: url('../images/dup.png') no-repeat center;
+    top: 0;
+    right: 0;
+}
+ .form .type .dropdown:after {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -10px;
+    width: 1px;
+    height: 20px;
+    background: #fff;
+    content: "";
+}
+.dropdown div {
+    position: absolute;
+    height: 162px;
+    left: 0;
+    right: 0;
+    top: 100%;
+    border: 1px solid #e3e3e3;
+    overflow: hidden;
+    opacity: 0;
+    display: none;
+
+}
+.dropdown ul {
+    height: 100%;
+    left: 0;
+    list-style: outside none none;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+}
+ .form .type .dropdown li {
+       padding: 0 0 0 25px;
+       height: 54px;
+       line-height: 54px;
+       font-size: 16px;
+       color: #fff;
+       cursor: pointer;
+       text-align: left;
+
+   }
+.dropdown.open {
+    z-index: 2;
+}
+.h_slide .form .type .dropdown.open div {
+    border: 2px solid #fff;
+    background: none;
+    width: 132px;
+    left: -2px;
+}
+ .form .btn {
+    width: 80px;
+    border: 0;
+    height: 60px;
+    background: url('../images/sou.png') no-repeat center #e75355;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 3px;
+     outline: none;
+}
+.form #srch_img {
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    right: 250px;
+    width: 20px;
+    height: 16px;
+    cursor: pointer;
+    background: url('../images/h-ico8.png') no-repeat center;
+}
+.form #srch_img:hover {
+    background: url('../images/h-ico8-1.png') no-repeat center;
+}
+ .form .btn:hover {
+    background: url('../images/sou.png') no-repeat center #ec151c;
+}
+
+.keys {
+    position: absolute;
+    bottom: 195px;
+    right: 48%;
+    margin: 0 auto;
+    width: 517px;
+    /*left: 50%;*/
+    margin-right: -140px;
+    font-size: 14px;
+    text-align: right;
+}
+.keys li {
+    display: inline-block;
+}
+.keys li a {
+    display: inline-block;
+    color: #fff;
+    line-height: 45px;
+    padding: 0 8px;
+}
+.keys li a:hover {
+    color: #fc4349;
+}
+.slider-msg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-home-masc</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="newHome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Muse3.0-新首页" transform="translate(-1178.000000, -1498.000000)" stroke-width="2">
+            <g id="Group-12">
+                <g id="item" transform="translate(0.000000, 1100.000000)">
+                    <g id="31-geisha-avatar" transform="translate(1178.000000, 398.000000)">
+                        <g id="07-piggy-bank" transform="translate(3.000000, 2.000000)">
+                            <g id="_x30_7_x5F_piggy_x5F_bank">
+                                <g id="Group">
+                                    <path d="M16.001,54.369 C12.037,51.726 9.112,48.119 7.787,44" id="Shape" stroke="#363F40"></path>
+                                    <path d="M40,57.954 C37.488,58.633 34.798,59 32,59 C29.204,59 26.516,58.633 24.006,57.955" id="Shape" stroke="#363F40"></path>
+                                    <path d="M47,22.998 C53.072,26.647 57,32.457 57,39 C57,45.177 53.5,50.699 48,54.367" id="Shape" stroke="#363F40"></path>
+                                    <path d="M11,44 L3,44 C1.896,44 1,43.104 1,42 L1,36 C1,34.896 1.896,34 3,34 L7,34 C8.092,30.609 11.054,27.444 14,25 L14,16 L21,21 C23.753,19.919 26,19 29,19" id="Shape" stroke="#363F40"></path>
+                                    <polyline id="Shape" stroke="#363F40" points="24 55 24 63 16 63 16 50"></polyline>
+                                    <polyline id="Shape" stroke="#363F40" points="48 50 48 63 40 63 40 55"></polyline>
+                                    <path d="M22,32 C22,34.209 20.209,36 18,36 C15.791,36 14,34.209 14,32" id="Shape" stroke="#363F40"></path>
+                                    <path d="M63,33 C63,36.313 60.313,39 57,39" id="Shape" stroke="#363F40"></path>
+                                    <g transform="translate(33.000000, 0.000000)" id="Shape">
+                                        <path d="M7,6 L7,0" stroke="#CCCCCC"></path>
+                                        <path d="M3,12 L3,6" stroke="#CCCCCC"></path>
+                                        <path d="M7,8 L7,10" stroke="#CCCCCC"></path>
+                                        <path d="M3,2 L3,4" stroke="#CCCCCC"></path>
+                                        <path d="M0.998,22.998 C0.371,22.162 0,21.125 0,20 C0,17.238 2.238,15 5,15 C7.762,15 10,17.238 10,20 C10,21.984 8.845,23.699 7.17,24.506" stroke="#363F40"></path>
+                                    </g>
+                                    <path d="M31,51 L33,51" id="Shape" stroke="#CCCCCC"></path>
+                                    <path d="M35,51 L37,51" id="Shape" stroke="#CCCCCC"></path>
+                                    <path d="M27,51 L29,51" id="Shape" stroke="#CCCCCC"></path>
+                                    <path d="M0,63 L64,63" id="Shape" stroke="#363F40"></path>
+                                </g>
+                                <path d="M30,23 C35.629,23 41,24 45,27" id="Shape" stroke="#CCCCCC"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

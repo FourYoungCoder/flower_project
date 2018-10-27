@@ -1,0 +1,852 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 14px;
+    color: #444;
+    width: 100%;
+    background: #fff;
+}
+input {
+    outline: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style: none;
+}
+.clear_fix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.row{
+    width: 1248px;
+    margin: 0 auto;
+}
+/*设置屏幕的最小宽度*/
+.page_min_width {
+    min-width: 1024px;
+}
+.adust_996 {
+    width: 996px;
+    margin: 0 auto;
+}
+#header {
+    width: 100%;
+    overflow: hidden;
+}
+/*头部的顶部导航*/
+.header_top {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+/*当滚动条变化时*/
+.change {
+    background: #fff;
+}
+.header_top .menu_bar {
+    margin: 0 auto;
+    height: 48px;
+    /*overflow: hidden;*/
+}
+/*顶部导航左边处理*/
+.header_top .left_part {
+    float: left;
+    position: relative;
+}
+.header_top .left_part .item {
+    position: relative;
+    margin-right: 13px;
+    line-height: 48px;
+    padding: 4px;
+    color: rgba(255,255,255,.85);
+    /*color: #666;*/
+}
+/*当滚动条变化时*/
+.change .left_part .item {
+    color: #444;
+}
+.header_top .left_part .item:hover{
+    border-bottom: 1px solid #fff;
+}
+
+/*当滚动条变化时*/
+.change .active.item ,
+.change .left_part .item:hover{
+    color: #c90000;
+}
+
+.header_top .left_part .active {
+    border-bottom: 1px solid #fff;
+}
+.header_top .left_part .cut_off {
+    display: inline-block;
+    position: relative;
+    background-color: #ddd;
+    margin-left: 40px;
+    margin-right: 18px;
+    width: 1px;
+    height: 20px;
+    top: 6px;
+}
+/*隐藏的小导航*/
+.header_top .menu_nav {
+    position: absolute;
+    top: 10px;
+    left: 259px;
+    margin-right: 20px;
+    width: 24px;
+    height: 28px;
+    background: url("../images/menu_sprite.png") -50px -558px no-repeat;
+    cursor: pointer;
+}
+/*当滚动事件发生时*/
+.change .menu_nav{
+    background-position:0 -248px ;
+}
+.header_main_menu{
+    display: none;
+    padding: 20px 20px 0;
+    background: #fff;
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    top: 50px;
+    left: -128px;
+}
+/*三角形*/
+.header_main_menu .triangle_icon {
+    width: 18px;
+    height: 10px;
+    position: absolute;
+    left: 131px;
+    top: -9px;
+    background: url("../images/menu_arrow.png") 0 0 no-repeat;
+}
+/*小导航的头部*/
+.menu_nav .title a{
+    display: inline-block;
+    font-size: 16px;
+    color: #222;
+    font-weight: 700;
+    width: 90px;
+}
+.menu_nav .title a.last {
+    text-align:right;
+}
+/*小导航的中部*/
+.menu_nav .middle_nav {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+.menu_nav .middle_nav .cols{
+    display: inline-block;
+}
+.menu_nav .middle_nav .col1 {
+    width: 120px;
+}
+.menu_nav .middle_nav .col2 {
+    width: 155px;
+}
+.menu_nav .middle_nav .col2 .last {
+    font-weight: 700;
+}
+/*设置小导航中部的文字*/
+.middle_nav .cols a{
+    display: block;
+    line-height: 28px;
+    color: #222;
+}
+.menu_nav a:hover {
+    color: #c90000;
+}
+/*设置小导航的底部*/
+.menu_nav .bottom_nav {
+    margin-top: 10px;
+}
+.bottom_nav .icon_pin {
+    float: left;
+    height: 26px;
+    width: 26px;
+    background: url("../images/menu_sprite.png") 7px -302px no-repeat;
+    border: 1px solid #ededed;
+    cursor: pointer;
+}
+.bottom_nav .link {
+    float: right;
+    height: 26px;
+    line-height: 26px;
+}
+.bottom_nav .link a {
+    margin: 0 6px;
+    color: #999;
+}
+.bottom_nav .link a:hover{
+    text-decoration: underline;
+}
+.bottom_nav .link span {
+    color: #999;
+}
+.header_top .left_part .logo  {
+    display: inline-block;
+    width: 80px;
+    height: 28px;
+    margin-right: 20px;
+    background: url("../images/logo_wt.png") 0 0 no-repeat;
+    vertical-align: middle;
+}
+/*当滚动事件发生时*/
+.change .left_part .logo {
+    background: url("../images/logo_38_ie6.gif") 0 0 no-repeat;
+}
+/*右边的设置*/
+.header_top .right_part {
+    float: right;
+    margin-top: 8px;
+}
+/*登录和注册*/
+.right_part .btn {
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 0 15px;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+}
+/*登录*/
+.right_part .login {
+    border: 1px solid #fff;
+    margin-right: 10px;
+    /*color: #333;*/
+}
+/*当滚动事件发生的时候*/
+.change .right_part .login {
+    background: #ededed;
+    color: #444;
+}
+.change .right_part .login:hover{
+    background: #dedede;
+}
+.right_part .login:hover {
+    background: #fff;
+    color: #555;
+}
+/*注册*/
+.right_part .register {
+    background: #EC414D;
+    color: #fff;
+    box-shadow: none;
+    border: 1px solid #EC414D;
+}
+.right_part .register:hover {
+    background: #fe0130;
+}
+
+
+/*顶部导航条的搜索框*/
+.menu_bar .search_box {
+    display: none;
+    width: 400px;
+    line-height: 48px;
+    float: left;
+    position: relative;
+}
+/*搜索框的input设置*/
+.header_top .search_box .search_val {
+    width: 100%;
+    box-sizing: border-box;
+    height: 32px;
+    margin-top: 4px;
+    padding-left: 70px;
+    font-size: 14px;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+.header_top .search_box .text {
+    color: #999;
+}
+.header_top .search_box .type {
+    color: #999;
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    cursor: pointer;
+}
+/*搜索框的选择下拉*/
+.header_top .search_box .selection {
+    display: none;
+    width: 170px;
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.07);
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    top: 40px ;
+    z-index: 100;
+}
+.header_top .search_box .selection .cols li {
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 1em;
+}
+.header_top .search_box .selection .cols li:hover,
+.search_box .selection .selected
+{
+    background: #eee;
+}
+    /*搜索框的箭头*/
+.search_box .type .arr{
+    width: 7px;
+    height: 15px;
+    display: block;
+    background: url("../images/icon_arrow.png") -8px 0 no-repeat;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 17px;
+    left: 40px;
+}
+.search_box .search {
+    cursor: pointer;
+    display: block;
+    width: 15px;
+    height: 14px;
+    background: url("../images/sprite_nav.png") -31px -2px no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 17px;
+}
+.search_box .search:hover {
+    background-position:-32px -32px ;
+}
+/*大横幅*/
+.banner_box {
+    width: 100%;
+    height: 480px;
+    position: relative;
+    overflow: hidden;
+}
+.banner_box .banner_img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    /*margin-left: -800px;*/
+    z-index:1;
+}
+/*图片的作者*/
+.banner_box .Photographer {
+    position: absolute;
+    right: 150px;
+    bottom:96px;
+    z-index: 22;
+}
+.banner_box .Photographer span {
+    color: #fff;
+
+}
+.banner_box .Photographer a {
+    color: rgba(255,255,255,.85);
+}
+.banner_box .Photographer a:hover{
+    border-bottom: 1px solid #fff;
+}
+.banner_box .banner_img img {
+    /*width: 100%;*/
+    /*height: 100%;*/
+    width: 1600px;
+    height: 560px;
+    display: none;
+}
+/*大横幅的标题*/
+.banner_box .title {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight:100;
+    position: absolute;
+    top:20%;
+    left: 0;
+    right: 0;
+    z-index: 22;
+}
+/*大图片的搜索框定位*/
+.banner_box .search_box {
+    width: 500px;
+    position: absolute;
+    left: 0;
+    right: 0;
+   margin:200px auto;
+    z-index: 22;
+}
+.banner_box .search_box .info a:hover {
+    border-bottom: 1px solid #fff;
+}
+.banner_box .search_box .text {
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    padding: 0 10px;
+    border: 1px solid rgba(255,255,255,.95);
+    border-radius: 2px;
+    background-color: rgba(255,255,255,.95);
+    color: #444;
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,.07), 0 1px 3px 0 rgba(0,0,0,.02), 0 0 0 1px rgba(0,0,0,.1);
+    box-sizing: border-box;
+}
+/*搜索框下面的图片*/
+.banner_box .info {
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(255,255,255,.7);
+}
+/*搜索的按钮*/
+.banner_box .search_box .search {
+    width: 30px;
+    height: 37px;
+    background: url("../images/icon_sprite_ie.gif") -2px -121px;
+    right: 0;
+    top: 12px;
+}
+/*头部的广告*/
+#header .ad {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+}
+#header .ad .ad_img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+    height: 60px;
+}
+/*头部广告的关闭按钮*/
+#header .ad .close{
+    width: 30px;
+    height: 30px;
+    background:url("../images/notification_close.png")0 0 no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#header .ad .close:hover{
+    background-color: rgba(0,0,0,.5);
+}
+#main {
+    width: 100%;
+}
+/*大家正在关注*/
+#main .top {
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+    margin-bottom: 25px;
+    position: relative;
+}
+.top .title::before,
+.top .title::after
+{
+    content: "";
+    height: 1px;
+    width: 43%;
+    background: #ddd;
+    position: absolute;
+    top: 7px;
+}
+.top .title::before{
+    left: 0;
+}
+.top .title::after{
+    right: 0;
+}
+/*大家正在关注里的图片*/
+.promotion_img{
+    margin: 0 auto;
+    overflow: hidden;
+    height: 170px;
+    text-align: center;
+}
+.promotion_img img{
+    width: 260px;
+    height: 170px;
+}
+.promotion_img a {
+    display: block;
+    width: 236px;
+    height: 170px;
+    margin-left: 5px;
+    float: left;
+    border-radius: 4px;
+    overflow: hidden;
+}
+/*为您推荐*/
+.recommend_img {
+    width: 100%;
+}
+/*每加载一次,加载五行图片*/
+.recommend-container {
+    margin-bottom: 4px;
+}
+.recommend_box {
+    position: relative;
+    float: left;
+    width: 24.5%;
+    margin-right: 4px;
+    box-sizing: border-box;
+}
+.mask {
+    background: #000;
+}
+.mask:hover {
+    opacity: 0.8;
+}
+.recommend_box h2>a {
+    color: #444;
+    display: inline-block;
+    height: 20px;
+}
+.recommend_box h2>a:hover {
+    color: #da0019;
+}
+
+.recommend_info {
+    position: relative;
+    margin-bottom: 2%;
+    padding: 10px 16px;
+    height: 50%;
+    width: 100%;
+    background: #fafafa;
+    box-sizing: border-box;
+}
+.icon_left, .icon_right{
+    position: absolute;
+    width: 14px;
+    height: 28px;
+    background: url("../images/info_tra.png") no-repeat;
+}
+/*左边的三角*/
+.icon_left {
+    top: 21%;
+    left: -14px;
+    background-position: 0 0;
+    z-index: 1
+}
+/*右边的三角*/
+.icon_right {
+    top: 74%;
+    right: -14px;
+    background-position: 0 -51px;
+    z-index: 1;
+}
+
+.recommend_info:hover {
+    background: #f5f5f5
+}
+.recommend_info .info_box {
+    position: absolute;
+    top: 50px;
+}
+.recommend_date
+{
+    position: absolute;
+    padding: 0 20px 5px 0;
+    width: 80px;
+    height: 25px;
+    border-bottom: 1px solid #ededed;
+    background: url("../images/box_title_sprite.png") 0 -160px no-repeat;
+}
+.info_left .info_box {
+    left: 10px;
+}
+/*下边的盒子*/
+.info_right .info_box {
+    right: 16px;
+}
+.info_right .recommend_date {
+    right: 16px;
+}
+.info_right {
+    text-align: right;
+}
+.recommend_box img {
+    width: 100%;
+    height: 100%;
+}
+/*需在图片上设置信息*/
+.small_info {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+}
+.recommend_small_date {
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 56px;
+    padding: 0;
+    top: -40px;
+    background: url("../images/box_title_sprite.png") -231px -68px no-repeat;
+    background-color: rgba(50,50,50,.5);
+}
+.small_info h2 {
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 56px;
+    left: 30px;
+    top: -40px;
+    background-color: rgba(40,40,40,.6);
+
+}
+.small_info h2>a {
+    text-align: center;
+    font-size: 19px;
+    line-height: 40px;
+    color: #fff;
+}
+/*为您推荐的加载按钮*/
+.login_more {
+    position: relative;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+.login_more .more {
+    width: 51%;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: #eee;
+    font-size: 16px;
+    color: #999;
+}
+.login_more .more:hover{
+    background: #ddd;
+}
+.login_more .title::before,
+.login_more .title::after
+{
+    width: 22%;
+    top: 15px;
+}
+/*脚页的导航*/
+.foot_top .classify_nav {
+    width: 100%;
+    height: 28px;
+    border-bottom: 2px solid #ddd;
+}
+.classify_nav .title {
+    float: left;
+    font-size: 16px;
+}
+.classify_nav .all{
+    float: right;
+    color: #9E7E6B;
+    font-size: 16px;
+}
+.classify_nav .all:hover{
+    text-decoration: underline;
+}
+.classify_content a {
+    color: #222;
+}
+.classify_content a:hover {
+    color: #9a0000;
+    text-decoration: underline;
+}
+/*设置给个item*/
+.classify_content .item {
+    width: 20%;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+/*脚部中部*/
+#foot .middle {
+    width: 100%;
+    background: #333;
+}
+#foot .contain {
+    position: relative;
+}
+#foot .middle .cols {
+    width: 200px;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+}
+#foot .middle .cols>a {
+    display: block;
+    padding-bottom: 15px;
+    color: #bbb;
+
+}
+#foot .middle .cols>a:hover{
+    color: #ededed;
+}
+#foot .middle .cols>a.title {
+    font-size: 16px;
+    color: #ddd;
+    padding-bottom: 20px;
+}
+#foot .middle .follow {
+    position: absolute;
+    right: 2px;
+    top: 0;
+    border: 1px solid #555;
+    border-bottom: none;
+    border-top: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    width: 248px;
+}
+.weixin_code {
+    position: absolute;
+    right: 30px;
+    top: 38px;
+    display: none;
+}
+/*最后一部分*/
+#foot .bottom {
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background-color: #000;
+    color: #999;
+    text-align: center;
+}
+#foot .bottom a {
+    color: #999;
+}
+#foot .bottom a:hover {
+    text-decoration: underline;
+}
+
+
+/* 尾部的工具栏*/
+.foot_fix {
+    position: fixed;
+    right: 8px;
+    bottom: 8px;
+}
+.tool_box a
+{
+    display: block;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 40px;
+    height: 36px;
+    font-size: 40px;
+    line-height: 28px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    background-color: rgba(0,0,0,.6);
+}
+.tool_box a.help {
+    font-size: 30px;
+}
+.foot_fix .get_back {
+    width: 36px;
+    height: 40px;
+    font-size: 35px;
+    transform: rotate(90deg);
+    /*display: none;*/
+    /*opacity: 0;*/
+}
+.foot_fix a:hover {
+    background-color: rgba(0,0,0,.7);
+}
+.group_help ,.group_plus{
+    display: none;
+    background: #fff;
+    width: 140px;
+    border-radius: 2px;
+    box-shadow: 0 1px 8px rgba(0,0,0,.1);
+    position: absolute;
+    left: -152px;
+    bottom: 0;
+}
+/*工具天隐藏框的小三角*/
+.foot_fix .arr {
+    position: absolute;
+    right: -6px;
+    width: 6px;
+    height: 11px;
+    background: url("../images/code_arrow.png") 0 0 no-repeat;
+}
+.group_plus .arr {
+    bottom: 15px;
+}
+.group_help .arr {
+    bottom: 55px;
+}
+.group_help .cols,
+.group_plus .cols{
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.group_help .cols li,
+.group_plus .cols li
+{
+    position: relative;
+    height: 38px;
+    line-height: 38px;
+    text-indent: 3em;
+    cursor: pointer;
+    color: #222;
+    font-weight: 400;
+}
+.group_help .cols li:hover,
+.group_plus .cols li:hover
+{
+    color: #221919;
+    background-color: #F2F2F2;
+}
+
+/*小图标的处理*/
+.foot_fix i {
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 13px;
+    width: 12px;
+    height: 12px;
+    background: url("../images/icon_user_menu.png") 0 0 no-repeat;
+}
+.foot_fix .help_code {
+    background-position: 0 -640px;
+}
+
+.foot_fix .feed_back {
+    background-position: 0 -680px;
+}
+.foot_fix .add1 {
+    background-position: 0 -480px;
+}
+.foot_fix .add2 {
+    background-position: 0 -520px;
+}
+.foot_fix .add3 {
+    background-position: 0 -80px;
+}

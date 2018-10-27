@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6, pre, p,
+form, button, input, textarea, select,
+table, tr, td, th div{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+.clear-fixed::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+body{
+    background-color: #F7F7F7;
+}
+li{
+    list-style: none;
+}
+button{
+    border:none;
+    outline: none;
+}

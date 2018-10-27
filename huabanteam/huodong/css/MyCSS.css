@@ -1,0 +1,1052 @@
+@charset "UTF-8";
+/*a标签去下划线*/
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+/*a标签hover*/
+a:hover {
+    color: #c90000;
+}
+
+/*清浮动*/
+.clear-fix::after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+/*左浮动*/
+.left {
+    float: left;
+}
+
+/*右浮动*/
+.right {
+    float: right;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/*头部*/
+.top1 {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .06);
+}
+
+/*头部标签*/
+.oul > li {
+    float: left;
+    margin: auto 15px;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+/*右边盒子*/
+.top-box2 {
+    float: left;
+    margin: auto 15px;
+    line-height: 38px;
+    position: relative;
+}
+
+/*花瓣logo*/
+.top1 .top-box1 .oul img {
+    vertical-align: middle;
+}
+
+/*采集!!!*/
+#collection {
+    border: 1px solid #DDD;
+    border-right: none;
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    width: 70px;
+    border-radius: 5px 0 0 5px;
+    background-color: #FAFAFA;
+    padding-left: 10px;
+    color: #AAA;
+    margin-top: 9px;
+}
+
+/*采集模板*/
+#tomcat {
+    width: 170px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .07), 0 1px 3px 0 rgba(0, 0, 0, .02), 0 0 0 1px rgba(0, 0, 0, .05);
+    border-radius: 3px;
+    z-index: 10;
+    overflow: hidden;
+    display: none;
+}
+
+.item {
+    padding: 6px 15px;
+    width: 170px;
+    color: #444;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    height: 31px;
+}
+
+.item:hover {
+    background-color: #f7f7f7;
+}
+
+/*!!!*/
+.active {
+    background-color: #f7f7f7;
+}
+
+/*向下箭头*/
+.icon {
+    background: url("../images/ic-arrow-down.png") no-repeat;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    display: block;
+    left: 48px;
+    top: 20px;
+}
+
+/*输入框*/
+.input1 {
+    height: 32px;
+    width: 400px;
+    border: 1px solid #DDD;
+    border-left: none;
+    background: #FAFAFA;
+    position: absolute;
+    top: 9px;
+    left: 70px;
+    outline: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+/*放大镜*/
+.go {
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    width: 18px;
+    height: 18px;
+    background: url("../images/sprite_nav.png") no-repeat -31px 0;
+    left: 447px;
+    top: 16px;
+}
+
+/*登录注册*/
+.log-reg {
+    float: right;
+    height: 50px;
+}
+
+/*登录*/
+.log {
+    padding: 8px 14px;
+    width: 32px;
+    height: 34px;
+    background-color: #EDEDED;
+    position: relative;
+    left: -48px;
+    line-height: 50px;
+    font-size: 14px;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+.log:hover {
+    background: #d9d9d9;
+    color: #444;
+}
+
+/*注册*/
+.reg {
+    padding: 8px 14px;
+    width: 32px;
+    height: 34px;
+    background-color: #EC414D;
+    position: relative;
+    left: -43px;
+    line-height: 50px;
+    font-size: 14px;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.reg:hover {
+    border-color: #E31725;
+    background: #E31725;
+    color: #fff;
+}
+
+/*蒙版周围阴影*/
+#bob {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+/*登录蒙版*/
+#mask {
+    width: 520px;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -155px 0 0 -260px;
+    text-align: center;
+    padding: 30px 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    border-radius: 4px;
+    z-index: 999;
+    display: none;
+}
+
+/*取消按钮盒子*/
+/*js点击事件!!!*/
+#mask .close {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+/*取消按钮图片*/
+#mask .close i {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -10px 0 0 -10px;
+    background: url(../images/msg_close.png) 0 0 no-repeat;
+}
+
+/*花瓣logo*/
+.hua {
+    background: url("../images/logo_2x.png") no-repeat;
+    width: 106px;
+    height: 36px;
+    margin: 0 auto;
+    background-size: 100%;
+}
+
+/*社交logo图盒子*/
+.holder {
+    width: 286px;
+    height: 302px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+/*第一行文字*/
+.holder-text {
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+}
+
+/*第二行文字*/
+.holder-text1 {
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*登录logo图盒子*/
+.social {
+    width: 286px;
+    height: 51px;
+    position: relative;
+    margin: 15px auto;
+
+}
+
+/*登录logo图*/
+.img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+}
+
+.weibo2 {
+    background: url("../images/login_icons_tiny.svg") no-repeat;
+    left: 0;
+}
+
+.qzone2 {
+    background: url("../images/login_icons_tiny.svg") no-repeat -80px 0;
+    left: 60px;
+}
+
+.weixin {
+    background: url("../images/login_icons_tiny.svg") no-repeat -160px 0;
+    left: 120px;
+}
+
+.douban2 {
+    background: url("../images/login_icons_tiny.svg") no-repeat -240px 0;
+    left: 180px;
+}
+
+.renren2 {
+    background: url("../images/login_icons_tiny.svg") no-repeat -320px 0;
+    left: 240px;
+}
+
+/*logo移入移出*/
+.weibo2:hover {
+    background: url("../images/login_icons_tiny.svg") no-repeat 0 -80px;
+    left: 0;
+}
+
+.qzone2:hover {
+    background: url("../images/login_icons_tiny.svg") no-repeat -80px -80px;
+    left: 60px;
+}
+
+.weixin:hover {
+    background: url("../images/login_icons_tiny.svg") no-repeat -160px -80px;
+    left: 120px;
+}
+
+.douban2:hover {
+    background: url("../images/login_icons_tiny.svg") no-repeat -240px -80px;
+    left: 180px;
+}
+
+.renren2:hover {
+    background: url("../images/login_icons_tiny.svg") no-repeat -320px -80px;
+    left: 240px;
+}
+
+/*文字前后横线*/
+.holder-text::before {
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.holder-text::after {
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.holder-text1::before {
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    left: 0;
+    top: 110px;
+}
+
+.holder-text1::after {
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    right: 0;
+    top: 110px;
+}
+
+/*账号密码输入框*/
+.text {
+    padding: 0 10px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 1;
+    color: #777;
+    background: #FCFCFC;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    width: 250px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .05);
+    margin-bottom: 10px;
+}
+
+/*登录按钮*/
+.open {
+    background-color: #EC414D;
+    width: 286px;
+    height: 38px;
+    border-radius: 3px;
+}
+
+/*登录*/
+.open-text {
+    color: #fff;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+/*登录下面文字*/
+.bottom-text {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #444;
+}
+
+.under {
+    color: #c90000;
+    font-size: 14px;
+    margin-right: 45px;
+}
+
+/*下划线*/
+.under:hover {
+    text-decoration: underline;
+}
+
+/*注册蒙版*/
+#registered {
+    width: 520px;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -155px 0 0 -260px;
+    text-align: center;
+    padding: 30px 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    border-radius: 4px;
+    z-index: 999;
+    display: none;
+}
+
+.close1 {
+    position: absolute;
+    margin: 5px;
+    top: 0;
+    right: 0;
+}
+
+#registered .close1 i {
+    width: 20px;
+    height: 20px;
+    background: url(../images/msg_close.png) 0 0 no-repeat;
+    display: block;
+    cursor: pointer;
+}
+
+.registered-box {
+    width: 286px;
+    height: 149px;
+    margin: 15px auto;
+    position: relative;
+    color: #999;
+}
+
+.imgs {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+}
+
+.zuo {
+    margin-left: 29px;
+}
+
+.low {
+    font-size: 16px;
+    color: #9E7E6B;
+}
+
+.lost {
+    margin-top: 70px;
+    display: block;
+}
+
+.low:hover {
+    color: #9A0000;
+    text-decoration: underline;
+}
+
+.registered-bottom {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 14px;
+    color: #444;
+}
+
+.registered-bottom .low {
+    font-size: 14px;
+}
+
+.holder-text3::before {
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+
+.holder-text3::after {
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+
+/*头部下面图片*/
+.pic-box {
+    background: url("../images/login_header_blurbg.jpg") no-repeat;
+    width: 100%;
+    height: 120px;
+    margin-top: 50px;
+}
+
+/*文字盒子*/
+.title-box1 {
+    position: absolute;
+    top: 46px;
+    left: 42px;
+}
+
+/*图片内文字*/
+.title-text1 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 36px 0 8px;
+}
+
+.title-text2 {
+    color: #fff;
+    font-size: 14px;
+}
+
+/*图片右边内图片*/
+.title-box2 {
+    float: right;
+    width: 300px;
+    height: 120px;
+    position: relative;
+    top: 0;
+    right: 47px;
+
+}
+
+/*社交logo图*/
+.weibo {
+    display: inline-block;
+    background: url("../images/icons_login_big.png") no-repeat 0 0;
+    width: 57px;
+    height: 57px;
+    margin: 18px 15px 0 8px;
+}
+
+.qzone {
+    display: inline-block;
+    background: url("../images/icons_login_big.png") no-repeat -79px 0;
+    width: 57px;
+    height: 57px;
+    margin-top: 18px;
+    margin-right: 15px;
+}
+
+.douban {
+    display: inline-block;
+    background: url("../images/icons_login_big.png") no-repeat -159px 0;
+    width: 57px;
+    height: 57px;
+    margin-top: 18px;
+    margin-right: 15px;
+}
+
+.renren {
+
+    display: inline-block;
+    background: url("../images/icons_login_big.png") no-repeat -239px 0;
+    width: 57px;
+    height: 57px;
+    margin-top: 18px;
+}
+
+/*社交图上下文字横线*/
+.title-box2-bottom {
+    color: #fff;
+    width: 300px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.title-box2-text::before {
+    display: block;
+    content: "";
+    width: 40px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 96px;
+}
+
+.title-box2-text::after {
+    display: block;
+    content: "";
+    width: 40px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 96px;
+}
+
+/*中部吸顶*/
+#central {
+    width: 100%;
+    height: 70px;
+    background: rgba(0, 0, 0, .5);
+    position: relative;
+    display: none;
+}
+
+.fixed {
+    display: block;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    z-index: 4444;
+}
+
+/*左边文字*/
+.title-box3 {
+    position: absolute;
+    top: -26px;
+    left: 43px;
+}
+
+.title-box3-text1 {
+    color: #fff;
+    font-size: 20px;
+    margin: 36px 0 8px;
+}
+
+.title-box3-text2 {
+    color: #fff;
+    font-size: 14px;
+}
+
+/*右边社交logo图的盒子*/
+.title-box4 {
+
+    height: 70px;
+    width: 320px;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+
+/*盒子里的文字*/
+.title-box4-text {
+    display: inline-block;
+    position: relative;
+    top: 24px;
+    vertical-align: top;
+    color: #fff;
+    margin-right: 2px;
+}
+
+/*盒子里的图片*/
+.weibo1 {
+    position: absolute;
+    top: 12px;
+    left: 152px;
+    background: url("../images/icons_login_fixbg.png") no-repeat 0 0;
+    width: 45px;
+    height: 45px;
+}
+
+.qzone1 {
+    position: absolute;
+    top: 12px;
+    left: 202px;
+    background: url("../images/icons_login_fixbg.png") no-repeat -61px 0;
+    width: 45px;
+    height: 45px;
+}
+
+.douban1 {
+    position: absolute;
+    left: 252px;
+    top: 12px;
+    background: url("../images/icons_login_fixbg.png") no-repeat -120px 0;
+    width: 45px;
+    height: 45px;
+}
+
+.renren1 {
+    position: absolute;
+    top: 12px;
+    left: 302px;
+    background: url("../images/icons_login_fixbg.png") no-repeat -180px 0;
+    width: 45px;
+    height: 45px;
+}
+
+/*鼠标移入事件*/
+.weibo1:hover {
+    background: url("../images/icons_login_fixbg.png") no-repeat 0 -60px;
+    position: absolute;
+    top: 12px;
+    left: 152px;
+    width: 45px;
+    height: 45px;
+}
+
+.qzone1:hover {
+    background: url("../images/icons_login_fixbg.png") no-repeat -61px -60px;
+    position: absolute;
+    top: 12px;
+    left: 202px;
+    width: 45px;
+    height: 45px;
+}
+
+.douban1:hover {
+    background: url("../images/icons_login_fixbg.png") no-repeat -120px -60px;
+    position: absolute;
+    top: 12px;
+    left: 252px;
+    width: 45px;
+    height: 45px;
+}
+
+.renren1:hover {
+    background: url("../images/icons_login_fixbg.png") no-repeat -180px -60px;
+    position: absolute;
+    top: 12px;
+    left: 302px;
+    width: 45px;
+    height: 45px;
+}
+
+/*花瓣活动*/
+.petal {
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -94px;
+    width: 188px;
+    height: 210px;
+}
+
+/*花瓣活动logo*/
+.petal-logo {
+    background: url("../images/huabanhuodong.jpg") no-repeat;
+    position: absolute;
+    margin-top: 59px;
+    margin-left: 21.5px;
+    width: 145px;
+    height: 49px;
+}
+
+/*底部盒子*/
+.petal-box {
+    position: absolute;
+    bottom: 20px;
+    height: 32px;
+    width: 188px;
+}
+
+/*活动列表按钮*/
+.list {
+    height: 32px;
+    width: 84px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+/*解决方案按钮*/
+.program {
+    cursor: pointer;
+    height: 32px;
+    width: 84px;
+    float: right;
+    border: 1px solid #EDEDED;
+    border-radius: 2px;
+}
+
+/*内容*/
+.content {
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+/*内容栏*/
+.content-box {
+    margin: 0 auto;
+    width: 1180px;
+    height: 600px;
+}
+
+/*内容盒子*/
+.content-box .box {
+    position: relative;
+    width: 48%;
+    height: 463px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 23px;
+}
+
+.content-box .box .list {
+    width: 100%;
+    height: 100%;
+}
+
+/*盒子图片*/
+.box .list img {
+    height: 350px;
+    width: 570px;
+}
+
+/*文字内容盒子*/
+.box-content {
+    position: absolute;
+    top: 350px;
+    background-color: #fff;
+    width: 570px;
+    height: 113px;
+}
+
+/*盒子标题*/
+.content-box-text {
+    color: #444;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.content-box-text a:hover {
+    color: #EA714C;
+}
+
+/*盒子状态*/
+.text-style {
+    background-color: #DDD;
+    color: #fff;
+    border-radius: 2px;
+    padding: 2px 11px;
+    font-size: 12px;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 18px;
+}
+
+/*加载更多*/
+.load {
+    width: 770px;
+    height: 38px;
+    background-color: #EDEDED;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 38px;
+    font-size: 14px;
+    color: #444;
+    cursor: pointer;
+}
+
+.load-box {
+    width: 100%;
+    height: 88px;
+    background-color: #F5F5F5;
+    padding-top: 30px;
+}
+
+.load:hover {
+    background: #e0e0e0;
+}
+
+/* 内容 */
+.content .content-box .box:hover {
+    box-shadow: 0 0 0 2px #FFF, 0 2px 20px 2px rgba(0, 0, 0, .03), 0 24px 30px 2px rgba(0, 0, 0, .04);
+    transition: .5s;
+    transform: translateY(-5px);
+}
+
+/*子页面内容*/
+.big-pic {
+    position: relative;
+
+}
+
+.som-pic {
+    position: absolute;
+    top: 110px;
+    left: 451px;
+    display: inline-block;
+}
+
+.logo-text1 {
+
+    margin: 40px auto;
+    background: url("../images/heading-a.svg") no-repeat;
+
+    width: 340px;
+    height: 26px;
+}
+
+.info-group {
+    width: 370px;
+    height: 241px;
+    float: left;
+    margin-left: 60px;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.info-group h3 {
+    margin-right: 30px;
+    width: 370px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info-item p {
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.info-group img {
+    width: 370px;
+    height: 110px;
+}
+
+/*蓝色图片文字*/
+.bob {
+
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(109deg, #d8b1ee, #76b4e9);
+}
+
+.bob-1 {
+    margin: 132px 33px;
+    float: left;
+
+    width: 270px;
+    height: 265px;
+    text-align: center;
+}
+
+.bob-1 h3 {
+    margin: 20px 0;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0 4px 20px rgba(13, 0, 182, .3);
+}
+
+.bob-1 p {
+    padding: 0 5px;
+    line-height: 24px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+    text-shadow: 0 4px 20px rgba(13, 0, 182, .3);
+}
+
+/*联系我们*/
+.contact {
+
+}
+
+.contact-pic {
+    display: block;
+    margin: 80px auto;
+    width: 330px;
+    height: 26px;
+    background: url("../images/heading-b.svg") no-repeat;
+}
+
+.contact div {
+    margin: 16px auto;
+    text-align: center;
+    color: #444444;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.p1 {
+    margin-bottom: 16px;
+
+}
+
+.p2 {
+
+    margin-bottom: 80px;
+}
+
+.p3 {
+    padding-top: 80px;
+}
+
+.p4 {
+    color: #ea5813 !important;
+    cursor: pointer;
+}
+
+.p4:hover {
+    color: #ea5813;
+    text-decoration: underline;
+}
+.litt{
+    background-color: #EDEDED;
+}

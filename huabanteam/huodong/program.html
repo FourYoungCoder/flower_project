@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>花瓣活动,权威,专业,有趣的设计大赛都在这! - 花瓣网</title>
+    <link rel="icon" href="images/touch-icon-iphone.png">
+    <link rel="stylesheet" href="css/MyCSS.css">
+    <link rel="stylesheet" href="css/foot.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/MyJs1.js"></script>
+</head>
+<body>
+<!--头部导航栏-->
+<div class="top1 clear-fix">
+    <div class="top-box1">
+        <ul class="oul">
+            <li><a href=""><img src="images/huaban.jpg" alt="logo"></a></li>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">发现</a></li>
+            <li><a href="#">最新</a></li>
+            <li><a href="#">···&nbsp;&nbsp;&nbsp;|</a></li>
+            <li><a href="#">活动</a></li>
+            <li><a href="#">美素</a></li>
+            <li><a href="#">美思</a></li>
+            <li><a href="#">美物</a></li>
+            <li><a href="#">花瓣LIVE</a></li>
+        </ul>
+    </div>
+    <div class="top-box2">
+        <span id="collection" style="font-size: 14px">采集</span>
+        <i class="icon"></i>
+        <div id="tomcat">
+            <div class="item active">采集</div>
+            <div class="item">画板</div>
+            <div class="item">用户</div>
+        </div>
+        <input type="text" class="input1" placeholder="搜索你喜欢的">
+        <span class="go"></span>
+    </div>
+
+    <div class="log-reg">
+        <a  href="#" class="log">登录</a>
+        <div id="bob"></div>
+        <a href="#" class="reg white">注册</a>
+    </div>
+</div>
+<!--登录蒙版-->
+<div id="mask">
+    <div class="close"><i></i></div>
+    <div class="hua"></div>
+    <div class="holder">
+        <p class="holder-text">使用第三方账号登录</p>
+        <div class="social">
+            <a class="weibo2 img" href="http://huaban.com/oauth/weibo/instant_login/?_ref=frame"></a>
+            <a class="qzone2 img" href="http://huaban.com/oauth/qzone/instant_login/?_ref=frame"></a>
+            <a class="weixin img" href="http://huaban.com/oauth/wechat/instant_login/?_ref=frame"></a>
+            <a class="douban2 img" href="http://huaban.com/oauth/douban/instant_login/?_ref=frame"></a>
+            <a class="renren2 img" href="http://huaban.com/oauth/renren/instant_login/?_ref=frame"></a>
+        </div>
+        <p class="holder-text1">使用手机号/邮箱登录</p>
+        <div>
+            <input class="text" type="text" placeholder="输入手机号或者邮箱">
+            <input class="text" type="password" placeholder="密码">
+        </div>
+        <div class="open">
+            <a href="#" class="open-text">登录</a>
+        </div>
+        <div class="bottom-text">
+            <a class="under" href="#">忘记密码»</a>还没有花瓣账号？<a class="under" href="#">点击注册»
+        </a>
+        </div>
+    </div>
+
+</div>
+<!--注册蒙版-->
+<div id="registered">
+    <div class="close1">
+        <i></i>
+    </div>
+    <div class="hua"></div>
+    <div class="registered-box">
+        <p class="holder-text3">使用第三方账号登录</p>
+        <a class="weibo2 imgs zuo" href="http://huaban.com/oauth/weibo/instant_login/?_ref=frame"></a>
+        <a class="qzone2 imgs zuo" href="http://huaban.com/oauth/qzone/instant_login/?_ref=frame"></a>
+        <a class="weixin imgs zuo" href="http://huaban.com/oauth/wechat/instant_login/?_ref=frame"></a>
+        <a class="douban2 imgs zuo" href="http://huaban.com/oauth/douban/instant_login/?_ref=frame"></a>
+        <a href="#" class="low lost">使用手机号注册</a>
+    </div>
+    <div class="registered-bottom ">已有账号？<a href="#" class="low">登录到花瓣</a></div>
+</div>
+
+
+<!--头部下面图片-->
+<div class="pic-box">
+    <!--文字-->
+    <div class="title-box1">
+        <div class="title-text1">国内最优质图片灵感库</div>
+        <div class="title-text2">已有数百万出众网友,用花瓣保存喜欢的图片。</div>
+    </div>
+    <!--图片-->
+    <div class="title-box2">
+        <div class="title-box2-top">
+            <a class="weibo" href="#"></a>
+            <a class="qzone" href="#"></a>
+            <a class="douban" href="#"></a>
+            <a class="renren" href="#"></a>
+        </div>
+        <!--图片下面文字-->
+        <div class="title-box2-bottom">
+            <span class="title-box2-text">用以上社交账号直接登录</span>
+        </div>
+    </div>
+</div>
+
+<!--中部吸顶-->
+<div id="central">
+    <div class="title-box3">
+        <div class="title-box3-text1">国内最优质图片灵感库</div>
+        <div class="title-box3-text2">已有数百万出众网友,用花瓣保存喜欢的图片。</div>
+    </div>
+    <div class="title-box4">
+        <span class="title-box4-text">用社交账号直接登录 :</span>
+        <a class="weibo1" href="#"></a>
+        <a class="qzone1" href="#"></a>
+        <a class="douban1" href="#"></a>
+        <a class="renren1" href="#"></a>
+    </div>
+</div>
+
+<!--花瓣活动-->
+<div class="petal">
+    <span class="petal-logo"></span>
+    <div class="petal-box">
+        <button class="list" style="background: #fff">活动列表</button>
+        <button class="program" style="background:#dedede ">解决方案</button>
+    </div>
+</div>
+<script>
+    console.log($(".petal-box .list"));
+</script>
+
+<!--内容-->
+<div class="big-pic">
+    <div><img style="width: 100%" src="images/kv-bg.png" alt=""></div>
+    <div class="som-pic" ><img src="images/kv-title.svg" alt=""></div>
+</div>
+<!--精灵图文字-->
+    <div class="logo-text1"></div>
+
+    <div class="coc clear-fix">
+        <div class="info-group">
+            <img src="images/logos-huaban@3x.png" alt="">
+            <h3>花瓣</h3>
+            <p>拥有 3800 万注册用户，以“连接设计和大众生活，提供以设计驱动的美好生活方式”的愿景，成为设计师工作和大众生活的灵感库，月覆盖 7000 万访客。</p>
+        </div>
+        <div class="info-group">
+            <img src="images/logos-shijue.svg" alt="">
+            <h3>视觉中国</h3>
+            <p>国际知名的以“视觉内容”为核心的互联网科技文创集团，旗下拥有全球知名版权图库Corbis，以及全球知名摄影社区 500PX，注册用户 1300 万。</p>
+        </div>
+        <div class="info-group">
+            <img src="images/logos-ixdc@3x.png" alt="">
+            <h3>国际体验设计大会</h3>
+            <p>200 位全球顶级公司 UX 精英，3000 设计师参会，覆盖 20000 人设计力大展，形成一年一度全球最具影响力的体验设计盛会。</p>
+        </div>
+</div>
+
+
+
+
+<!--蓝色图片内文字-->
+<div class="bob clear-fix">
+    <div class="bob-1">
+        <img src="images/icon-cover.svg" alt="">
+        <h3>覆盖主流消费人群</h3>
+        <p>用户群集中在18-34岁，82%的用户在一二线城市</p>
+    </div>
+    <div class="bob-1">
+        <img src="images/icon-coop.svg" alt="">
+        <h3>120所合作院校</h3>
+        <p>设计大赛吸引各大设计院系学生参与</p>
+    </div>
+    <div class="bob-1">
+        <img src="images/icon-exposure.svg" alt="">
+        <h3>全媒体渠道亿级曝光</h3>
+        <p>与4000家主流传统媒体、社交媒体、自媒体形成渠道分发合作</p>
+    </div>
+    <div class="bob-1">
+        <img src="images/icon-king.svg" alt="">
+        <h3>顶级评委阵容</h3>
+        <p>邀约国内外顶级设计师担纲评委</p>
+    </div>
+</div>
+
+<!--联系我们-->
+<div class="contact">
+    <span class="contact-pic"></span>
+    <div class="p1">我们希望为您提供最省心、最高效、最具ROI的营销服务。</div>
+    <div class="p2">我们会用效果告诉您创意营销覆盖的不仅仅是创意群体，还将以更吸引眼球的方式影响大众群体。</div>
+    <div class="p3">联系我们</div>
+    <div class="p4">邮箱：bd@huaban.com</div>
+</div>
+
+<!--尾部内容-->
+<div id="foot" class="page_min_width">
+    <div class="middle">
+        <div class="row contain">
+            <div class="cols">
+                <a href="#" class="title">花瓣首页</a>
+                <a href="#">花瓣采集工具</a>
+                <a href="#">花瓣官方博客</a>
+                <a href="#">违规有害信息举报</a>
+            </div>
+            <div class="cols">
+                <a class="title">联系与合作</a>
+                <a href="#">联系我们</a>
+                <a href="#">用户反馈</a>
+                <a href="#">花瓣LOGO标准文档</a>
+            </div>
+            <div class="cols">
+                <a class="title">移动客户端</a>
+                <a href="#">花瓣iPhone</a>
+                <a href="#">花瓣Android</a>
+                <a href="#">花瓣HD</a>
+            </div>
+            <div class="cols follow">
+                <a class="title">关注我们</a>
+                <a href="#">新浪微博 : @花瓣网</a>
+                <a href="#">联系客服 : 在线客服</a>
+                <a id="weixintu">官方微信 :
+                    <span id="eweima"></span>
+                </a>
+                <span id="big-eweima"></span>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <span>&copy; Huaban 杭州纬聚网络有限公司&nbsp;|&nbsp;</span>
+        <a href="#">浙公网安备&nbsp; 33010602001878号</a>
+    </div>
+</div>
+<div class="foot_fix">
+    <div class="tool_box">
+        <a href="#" class="get_back" title="回到顶部"><</a>
+        <a href="#" class="help">?</a>
+        <a href="#" class="plus">+</a>
+    </div>
+    <div class="group_help">
+        <ul class="cols">
+            <li>帮助中心
+                <i class="help_code"></i>
+            </li>
+            <li>用户反馈
+                <i class="feed_back"></i>
+            </li>
+            <li>人工服务
+                <i class="online_service"></i>
+            </li>
+        </ul>
+        <span class="arr"></span>
+    </div>
+    <div class="group_plus">
+        <ul class="cols">
+            <li>
+                添加采集
+                <i class="add1"></i>
+            </li>
+            <li>
+                添加画板
+                <i class="add2"></i>
+            </li>
+            <li>
+                安装采集工具
+                <i class="add3"></i>
+            </li>
+        </ul>
+        <span class="arr"></span>
+    </div>
+</div>
+</body>
+</html>

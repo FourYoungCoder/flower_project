@@ -1,0 +1,76 @@
+.header{
+    height: 50px;
+    background-color: #fff;
+    width: 100%;
+
+}
+.header-main{
+    width: 90%;
+    margin: 0 auto;
+}
+.header-main .index-logo{
+    width: 190px;
+    display: inline;
+    float: left;
+    padding: 7px 0;
+
+}
+.header-main .index-logo img{
+    width: 124px;
+    height: 36px;
+    display: block;
+
+}
+.header-main .header-navl{
+    width: auto;
+    float: left;
+    position: relative;
+    left: -30px;
+}
+.header-main .header-navl a{
+    font-size: 14px;
+    line-height: 50px;
+    margin-right: 14px;
+}
+.header-main .header-navl a:hover{
+    color: #FC4349;
+}
+.header-main .header-navl a:last-child{
+    margin-right: 0;
+    color: #FC4349;
+}
+.new{
+    background: url("../images/Hot-icon.png") no-repeat;
+    display: inline-block;
+    width: 33px;
+    height: 17px;
+    vertical-align: middle;
+    margin-bottom: 13px;
+}
+.header-main .header-navr{
+    float: right;
+    display: inline;
+    margin-right: 5px;
+}
+.header-main .header-navr dl dt,.header-main .header-navr dl dd{
+    display: inline;
+}
+.header-main .header-navr dl dt a,.header-main .header-navr dl dd a,.header-main .header-navr dl dd span{
+    display: inline-block;
+    width: auto;
+    float: left;
+    line-height: 50px;
+    font-size: 14px;
+    color: #222;
+}
+.header-main .header-navr dl dt a{
+    padding: 0 30px 0 20px;
+    background: url("../images/top1_1.png") no-repeat left center;
+    background-size: 16px 16px ;
+}
+.header-main .header-navr dl dd span{
+    margin: 0 17px;
+}
+.header-main .header-navr a:hover{
+    color: #FC4349;
+}

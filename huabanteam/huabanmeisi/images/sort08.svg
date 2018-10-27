@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-home-vi</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="newHome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Muse3.0-新首页" transform="translate(-587.000000, -1498.000000)" stroke-width="2">
+            <g id="Group-12">
+                <g id="item" transform="translate(0.000000, 1100.000000)">
+                    <g id="08-market-vision" transform="translate(587.000000, 398.000000)">
+                        <g id="_x30_8_x5F_market_x5F_vision" transform="translate(4.000000, 4.000000)">
+                            <g id="Group">
+                                <g>
+                                    <g transform="translate(0.000000, 14.000000)" stroke="#363F40">
+                                        <path d="M62,17 C62,17 48.121,34 31,34 C13.879,34 0,17 0,17 C0,17 13.879,0 31,0 C48.121,0 62,17 62,17 L62,17 Z" id="Shape"></path>
+                                        <circle id="Oval" cx="31" cy="17" r="17"></circle>
+                                        <path d="M32,6 C37,6 42,10.925 42,17 C42,23.075 37.075,28 31,28 C24.925,28 20,23 20,18" id="Shape"></path>
+                                    </g>
+                                    <path d="M20,29 C20,24.029 24.029,20 29,20 L29,29 L20,29 L20,29 Z" id="Shape" stroke="#363F40"></path>
+                                    <g id="Group-7" transform="translate(1.000000, 0.000000)" stroke="#CCCCCC">
+                                        <path d="M0,23 C3.527,9.757 15.646,0 30,0 C44.354,0 56.471,9.759 60,23" id="Shape"></path>
+                                        <path d="M60,39 C56.473,52.243 44.354,62 30,62 C15.646,62 3.529,52.241 0,39" id="Shape"></path>
+                                        <path d="M29,54 L31,54" id="Shape"></path>
+                                        <path d="M25,54 L27,54" id="Shape"></path>
+                                        <path d="M33,54 L35,54" id="Shape"></path>
+                                        <path d="M29,8 L31,8" id="Shape"></path>
+                                        <path d="M25,8 L27,8" id="Shape"></path>
+                                        <path d="M33,8 L35,8" id="Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

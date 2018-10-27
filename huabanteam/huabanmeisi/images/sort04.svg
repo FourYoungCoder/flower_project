@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-home-gd</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="newHome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Muse3.0-新首页" transform="translate(-390.000000, -1497.000000)" stroke-width="2">
+            <g id="Group-12">
+                <g id="item" transform="translate(0.000000, 1100.000000)">
+                    <g id="19-website-blueprint" transform="translate(390.000000, 397.000000)">
+                        <g id="_x31_9_x5F_website_x5F_blueprint" transform="translate(6.000000, 5.000000)">
+                            <g id="Group">
+                                <path d="M58,39 C58,35.134 54.866,32 51,32 C47.134,32 44,35.134 44,39 L44,7 L7.10542736e-15,7 L7.10542736e-15,46 L51,46 C54.866,46 58,42.866 58,39 Z" id="Shape" stroke="#363F40"></path>
+                                <path d="M58,39 L58,7 C58,3.134 54.866,0 51,0 C47.134,0 44,3.134 44,7" id="Shape" stroke="#363F40"></path>
+                                <g transform="translate(0.000000, 50.000000)">
+                                    <g id="Group-6" transform="translate(10.000000, 5.000000)" stroke="#CCCCCC">
+                                        <path d="M0,3 L0,0" id="Shape"></path>
+                                        <path d="M4,3 L4,0" id="Shape"></path>
+                                        <path d="M8,3 L8,0" id="Shape"></path>
+                                        <path d="M12,3 L12,0" id="Shape"></path>
+                                        <path d="M16,3 L16,0" id="Shape"></path>
+                                        <path d="M20,3 L20,0" id="Shape"></path>
+                                        <path d="M24,3 L24,0" id="Shape"></path>
+                                        <path d="M28,3 L28,0" id="Shape"></path>
+                                        <path d="M32,3 L32,0" id="Shape"></path>
+                                        <path d="M36,3 L36,0" id="Shape"></path>
+                                        <path d="M40,3 L40,0" id="Shape"></path>
+                                        <path d="M44,3 L44,0" id="Shape"></path>
+                                    </g>
+                                    <rect id="Rectangle-path" stroke="#363F40" x="0" y="0" width="58" height="8"></rect>
+                                    <path d="M3,4 L5,4" id="Shape" stroke="#363F40"></path>
+                                </g>
+                                <g id="Group-4" transform="translate(1.000000, 11.000000)" stroke="#CCCCCC">
+                                    <path d="M50,0 L50,2" id="Shape"></path>
+                                    <path d="M50,4 L50,6" id="Shape"></path>
+                                    <path d="M50,8 L50,10" id="Shape"></path>
+                                    <path d="M0,1 L4,1" id="Shape"></path>
+                                    <path d="M17,1 L21,1" id="Shape"></path>
+                                    <path d="M11,1 L15,1" id="Shape"></path>
+                                    <path d="M23,1 L27,1" id="Shape"></path>
+                                    <path d="M29,1 L33,1" id="Shape"></path>
+                                    <path d="M35,1 L39,1" id="Shape"></path>
+                                </g>
+                                <rect id="Rectangle-path" stroke="#363F40" x="6" y="16" width="32" height="7"></rect>
+                                <rect id="Rectangle-path" stroke="#363F40" x="6" y="27" width="7" height="6"></rect>
+                                <rect id="Rectangle-path" stroke="#363F40" x="17" y="27" width="9" height="6"></rect>
+                                <rect id="Rectangle-path" stroke="#363F40" x="30" y="27" width="8" height="6"></rect>
+                                <path d="M5,37 L14,37" id="Shape" stroke="#363F40"></path>
+                                <path d="M5,41 L14,41" id="Shape" stroke="#363F40"></path>
+                                <path d="M16,37 L27,37" id="Shape" stroke="#363F40"></path>
+                                <path d="M16,41 L27,41" id="Shape" stroke="#363F40"></path>
+                                <path d="M29,37 L39,37" id="Shape" stroke="#363F40"></path>
+                                <path d="M29,41 L39,41" id="Shape" stroke="#363F40"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

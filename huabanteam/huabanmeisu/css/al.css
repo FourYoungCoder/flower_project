@@ -1,0 +1,287 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+img {
+    max-width: 100%;
+}
+fieldset, a img {
+    border: 0;
+}
+body {
+    font-family: "Microsoft YaHei",sans-serif;
+}
+
+.layui-layer-move {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 110px;
+    height: 40px;
+    font-size: 15px;
+    margin-left: -50px;
+    cursor: move;
+    opacity: 0.9;
+    color: #fff;
+    line-height: 40px;
+    background-color: #4b4a4a;
+    text-align: center;
+    z-index: 2147483647;
+}
+.layui-layer-move .yuan{
+    position: absolute;
+    left: 15px;
+    top: 13px;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 10px;
+}
+.layui-layer-move .gt{
+    position: absolute;
+    font-size: 16px;
+    font-weight: bolder;
+    left: 21px;
+    top: 2px;
+    color: #f00;
+    z-index: 1111;
+}
+.layui-layer-move .val{
+    margin-right: 10px;
+    float: right;
+}
+
+.layui-layer-setwin {
+    top: 0;
+    right: 0;
+    position: absolute;
+    font-size: 0;
+    line-height: initial;
+    z-index: 10;
+}
+.layui-layer, .layui-layer-shade {
+    position: fixed;
+    _position: absolute;
+    pointer-events: auto;
+}
+.layui-layer-setwin .layui-layer-close1 {
+    width: 55px;
+    height: 55px;
+    background: url('../images/clo.png') no-repeat center;
+    background-position: center;
+    cursor: pointer;
+}
+.layui-layer-setwin a {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    font-size: 12px;
+    _overflow: hidden;
+}
+.layui-layer-btn a, .layui-layer-dialog .layui-layer-ico, .layui-layer-setwin a {
+    display: inline-block;
+    vertical-align: top;
+}
+.layui-layer-title {
+    height: 55px;
+    line-height: 55px;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    text-align: center;
+    padding: 0;
+    font-size: 18px;
+    color: #666;
+    border-radius: 0;
+}
+.layui-layer-title:after {
+    bottom: -2px;
+}
+.layui-layer-title:after {
+    background-color: #FC4349;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 25px;
+    z-index: 99;
+    left: 50%;
+    margin-left: -12.5px;
+}
+.layui-layer-content {
+    position: relative;
+    overflow: auto;
+}
+.srchimg_wrap {
+    padding: 0 80px;
+}
+.srchimg_wrap .head {
+    height: 60px;
+    line-height: 60px;
+}
+.srchimg_wrap .head li.selected1 {
+    color: #fc4349;
+}
+.srchimg_wrap .head li {
+    width: 130px;
+    float: left;
+    display: inline;
+    padding-left: 8px;
+}
+.srchimg_wrap .body {
+    text-align: center;
+}
+.srchimg_wrap .body .txt {
+    width: 665px;
+    height: 40px;
+    border: 1px solid #e3e3e3;
+    margin-top: 38px;
+    background-color: #fff;
+    padding-left: 15px;
+    margin-bottom: 60px;
+}
+.srchimg_wrap .body .btn {
+    width: 138px;
+    height: 34px;
+     margin: 30px 0 0;
+    border: 1px solid #FC4349;
+    font-size: 15px;
+    color: #FC4349;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+}
+.srchimg_wrap .body .upload {
+    width: 680px;
+    height: 180px;
+    border: 2px dashed #c2c2c2;
+    position: relative;
+    margin-bottom: 30px;
+}
+.srchimg_wrap .body .upload .ico {
+    width: 83px;
+    height: 83px;
+    margin: 35px auto 0;
+    background: url('../images/tianjia04.png') no-repeat center;
+}
+.srchimg_wrap .body .upload h4 {
+    font-size: 14px;
+    color: #686868;
+    line-height: 50px;
+}
+.srchimg_wrap .body .upload .file {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.layui-layer {
+    border: 0;
+    padding-bottom: 0px;
+    max-width: 900px;
+    animation-fill-mode: both;
+    animation-duration: .3s;
+    top: 20%;
+    left: 50%;
+    margin-left: -415px;
+    background-color: #fff;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, .3);
+    z-index: 2 !important;
+    width: 830px;
+    height: 361px;
+    display: none;
+}
+
+.layer-anim {
+    -webkit-animation-name: layer-bounceIn;
+    animation-name: layer-bounceIn;
+}
+.yinc{
+    display: none;
+}
+.mask12{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index:1;
+    display: none;
+}
+.srchimg_wrap .body .upload:hover {
+    border: 2px dashed #FC4349;
+}
+.srchimg_wrap .body .upload:hover h4 {
+    color: #FC4349;
+}
+.srchimg_wrap .body .upload:hover .ico {
+    background: url('../images/tianjia05.png') no-repeat center;
+}
+.srchimg_wrap .body .btn:hover {
+    background-color: #FC4349;
+    color: #fff;
+}
+.sidebar {
+    position: fixed;
+    right: 0px;
+    bottom: 50%;
+    margin-bottom: -245px;
+}
+.sidebar li {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 2px;
+}
+.sidebar li a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.sidebar li.n1 {
+    background: url('../images/ico25_1.png') no-repeat center center #FFFFFF;
+}
+.sidebar li.n2 {
+    background: url('../images/ico26_1.png') no-repeat center center #FFFFFF;
+}
+.sidebar li.n3 {
+    background: url('../images/ico47.png') no-repeat center center #FFFFFF;
+}
+.sidebar li.n4 {
+    background: url('../images/ico48_1.png') no-repeat center center #FFFFFF;
+    cursor: pointer;
+}
+.sidebar li.n1:hover {
+    background: url('../images/ico25.png') no-repeat center center #fc4349;
+}
+.sidebar li.n2:hover {
+    background: url('../images/ico26.png') no-repeat center center #fc4349;
+}
+.sidebar li.n3:hover {
+    background: url('../images/ico47_1.png') no-repeat center center #fc4349;
+}
+.sidebar li.n4:hover {
+    background: url('../images/ico48.png') no-repeat center center #fc4349;
+}
+.uploada{
+    cursor: pointer;
+}
+.register{
+    cursor: pointer;
+}

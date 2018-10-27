@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-home-web</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="newHome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Muse3.0-新首页" transform="translate(-587.000000, -1330.000000)" stroke-width="2">
+            <g id="Group-12">
+                <g id="item" transform="translate(0.000000, 1100.000000)">
+                    <g id="_x31_1_x5F_website_x5F_homepage" transform="translate(587.000000, 230.000000)">
+                        <g id="04-global-business" transform="translate(5.000000, 2.000000)">
+                            <g id="_x30_4_x5F_global_x5F_business">
+                                <g id="Group">
+                                    <path d="M11.021,24 C14.392,16.905 21.623,12 30,12 C38.377,12 45.608,16.905 48.979,24" id="Shape" stroke="#363F40"></path>
+                                    <path d="M48.979,42 C45.608,49.095 38.377,54 30,54 C21.624,54 14.395,49.097 11.022,42.004" id="Shape" stroke="#363F40"></path>
+                                    <g id="Group-20">
+                                        <path d="M33.2142857,3.19354839 C48.2742857,4.78393548 60,17.6156129 60,33 C60,43.128871 54.915,52.0771935 47.1428571,57.4625806" id="Shape" stroke="#CCCCCC"></path>
+                                        <path d="M26.7857143,62.8064516 C11.7246429,61.2160645 0,48.3854516 0,33 C0,22.8700645 5.085,13.9217419 12.8571429,8.53635484" id="Shape" stroke="#CCCCCC"></path>
+                                        <ellipse id="Oval" stroke="#363F40" cx="29" cy="3" rx="3" ry="3"></ellipse>
+                                        <ellipse id="Oval" stroke="#363F40" cx="29" cy="63" rx="3" ry="3"></ellipse>
+                                    </g>
+                                    <path d="M12,33 L48,33" id="Shape" stroke="#363F40"></path>
+                                    <path d="M45,18.139 C41.523,20.488 36.098,22 30,22 C23.902,22 18.477,20.488 15,18.139" id="Shape" stroke="#363F40"></path>
+                                    <path d="M15,47.861 C18.477,45.512 23.902,44 30,44 C36.098,44 41.523,45.512 45,47.861" id="Shape" stroke="#363F40"></path>
+                                    <circle id="Oval" stroke="#363F40" cx="9" cy="33" r="3"></circle>
+                                    <circle id="Oval" stroke="#363F40" cx="51" cy="33" r="3"></circle>
+                                    <ellipse id="Oval" stroke="#363F40" cx="30" cy="33" rx="7" ry="21"></ellipse>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
